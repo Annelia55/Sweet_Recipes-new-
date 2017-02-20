@@ -1,2 +1,2 @@
-# Sweet_Recipes-new-
+# Sweet_Recipes
 new mobile friendly version with SASS
