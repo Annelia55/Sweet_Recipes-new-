@@ -2,49 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sweet recepies</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0">
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
 
-    <link href='https://fonts.googleapis.com/css?family=Jura&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <title>Sweet recipes</title>
 
-    <script type="text/javascript" src="../script.js"></script>
-    <link type="text/css" rel="stylesheet" href="../Index.css"/>
+    <!-- Bootstrap Core CSS -->
+    <link type="text/css" rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
+    <!-- Custom CSS -->
+    <link href="../stylesheets/stylesheet.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+
+    <!--<script src="stylesheets/print.css"></script>-->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
 <div class="jumbotron">
-    <div class="col-md-3 header">
-        <table id="________01" width="314" height="211" border="0" cellpadding="0" cellspacing="0">
-            <tr>
-                <td colspan="3">
-                    <img src="../images/Cake_2_01.png" width="314" height="60" alt=""></td>
-            </tr>
-            <tr>
-                <td rowspan="2">
-                    <img src="../images/Cake_2_02.png" width="56" height="151" alt=""></td>
-                <td>
-                    <a href="../Index.html"><img src="../images/Cake_2_03.gif" width="100" height="100" alt="Логотип"></a></td>
-                <td rowspan="2">
-                    <img src="../images/Cake_2_04.png" width="158" height="151" alt=""></td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="../images/Cake_2_05.png" width="100" height="51" alt=""></td>
-            </tr>
-        </table>
-    </div>
-    <div class="col-md-9" id="navbar">
-        <ul>
-            <li><a href="../Hot.html">Горячее</a></li>
-            <li><a href="../Bake.html">Выпечка</a></li>
-            <li><a href="../Snack.html">Закуски</a></li>
-            <li><a href="../Dessert.html">Десерты</a></li>
-            <li><a href="../Advice.html">Советы</a></li>
-        </ul>
-    </div>
 
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="../index.html" class="navbar-brand"><img src="../images/logo.png" alt=""/></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="../hot.html">Горячее</a></li>
+                    <li><a href="../bake.html">Выпечка</a></li>
+                    <li><a href="../snack.html">Закуски</a></li>
+                    <li><a href="../dessert.html">Десерты</a></li>
+                    <li><a href="../advice.html">Советы</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Поиск вкусняшки">
+                    </div>
+                    <button type="submit" class="btn btn-default"><span class="search-text">найти</span></button>
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
 
     <div class="container content">
         <div class="row">
@@ -61,12 +72,12 @@
                         <div class="overlay" id="contenedor1">
                             <div class="overlay_container">
                                 <a href="#close">
-                                    <img src="../images_recepies/Dessert/dessert_8.jpg"/>
+                                    <img src="../images/images_recepies/Dessert/dessert_8.jpg"/>
                                 </a>
                             </div>
                         </div>
                         <a href="#contenedor1">
-                            <img class="recepie_img" width="550px" src="../images_recepies/Dessert/dessert_8.jpg" id="imagenM1" />
+                            <img class="recepie_img" width="550px" src="../images/images_recepies/Dessert/dessert_8.jpg" id="imagenM1" />
                         </a>
                     </div>
 
