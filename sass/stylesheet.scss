@@ -16,80 +16,69 @@ a {
     text-decoration: none;
   }
 }
-/* Main */
-body {
-  //background-image: url(../images/bg_1.jpg);
-  //background-attachment: fixed;
-  //background-position: 0 0;
-  //background-repeat: repeat;
-  background-color: #FFFFFF;
+body, .jumbotron {
+  background-image: url(../images/bg_1.jpg);
+  background-attachment: fixed;
+  background-position: 0 0;
+  background-repeat: repeat;
 }
 
-#name {
-  font-family: "Ametist", cursive;
-  font-size: 14px;
-  font-weight: bold;
+/* NAVBAR */
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0.51);
+  border: none;
 }
-
-
-.jumbotron {
-  //background-image: url(../images/bg_1.jpg);
-  //background-attachment: fixed;
-  //background-position: 0 0;
-  //background-repeat: repeat;
-  background-color: #FFFFFF;
-}
-
-.header {
+.navbar-brand {
   margin-top: -40px;
-  margin-bottom: 10px;
 }
-
-p {
-  font-family: "Jura", "san-serif";
-}
-
-h1 {
-  font-family: "Ametist", cursive;
-  font-size: 36px !important;
-}
-
-/* Navigation */
-#navbar {
-  margin-top: -6px;
-}
-
-#navbar > ul {
-  list-style-type: none;
+.navbar-brand img {
+  width: 100px;
   padding: 0;
-  overflow: hidden;
 }
-
-#navbar > ul > li {
-  float: left;
-}
-
-#navbar > ul > li > a {
-  display: block;
-  color: #e6e0b7;
-  text-align: center;
-  padding: 15px 15px;
-  text-decoration: none;
-  font-size: 22px;
+.navbar-default .navbar-nav > li {
   background-color: #b2171d;
-  border-right: 1px solid white;
-  margin-top: 50px;
-  border-bottom: 4px solid #f1f1eb;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
   font-family: "Ametist", cursive;
+  font-size: 18px;
+  margin-left: 1px;
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+
+}
+.navbar-default .navbar-nav > li > a {
+  color: #e6e0b7;
 }
 
-#navbar > ul > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover {
+  transition: all .5s;
   text-decoration: none;
   color: white;
-
+}
+.navbar-right .btn-default {
+  background-color: #b2171d;
+  margin-left: 1px;
+  border: none;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+}
+.navbar-right .btn-default .search-text {
+  font-family: "Ametist", cursive;
+  color: #e6e0b7;
+  font-size: 14px;
+}
+.navbar-right .btn-default .search-text:hover {
+  transition: all .5s;
+  text-decoration: none;
+  color: white;
+}
+.form-control {
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+}
+.form-control input {
+  color: #e6e0b7;
 }
 
 /* Content */
@@ -296,70 +285,3 @@ h1 {
 .search {
   float: right;
 }
-
-/* Slider */
-.carousel {
-  height: 500px;
-}
-.carousel .item {
-  height: 500px;
-}
-.carousel-inner > .item > img {
-  min-width: 100%;
-  height: 500px;
-}
-.carousel-caption h4 {
-  font-size: 300%;
-}
-.carousel-caption h1 {
-  color: #fff;
-  font-size: 6rem;
-  font-family: "Ametist", cursive;
-}
-.carousel-caption h1 span {
-  color: #fff;
-  font-size: 4rem;
-  text-shadow: none;
-}
-
-.carousel-caption h1 {
-  animation: baner 12s ease-in 0.2s infinite;
-  -moz-animation: baner 12s ease-in 0.2s infinite;
-  -webkit-animation: baner 12s ease-in 0.2s infinite;
-  transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  display: inline-block;
-}
-@media (min-width: 768px) {
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-}
-@-webkit-keyframes baner {
-  0% {
-    -webkit-transform: perspective(300px) rotateY(0deg);
-  }
-  15%, 100% {
-    -webkit-transform: perspective(300px) rotateY(360deg);
-  }
-}
-@-moz-keyframes baner {
-  0% {
-    -moz-transform: perspective(300px) rotateY(0deg);
-  }
-  15%, 100% {
-    -moz-transform: perspective(300px) rotateY(360deg);
-  }
-}
-@keyframes baner {
-  0% {
-    transform: perspective(300px) rotateY(0deg);
-  }
-  15%, 100% {
-    transform: perspective(300px) rotateY(360deg);
-  }
-}
-.btn-opacity,.btn-opacity:hover {background:transparent;color:#fff;border:1px solid #fff;}
