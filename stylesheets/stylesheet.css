@@ -96,32 +96,34 @@ a:hover {
 }
 
 /* line 19, ../sass/stylesheet.scss */
-body, .jumbotron {
+body {
   background-image: url(../images/bg_1.jpg);
   background-attachment: fixed;
   background-position: 0 0;
   background-repeat: repeat;
 }
 
+/* -------------- INDEX.HTML --------------*/
 /* NAVBAR */
-/* line 27, ../sass/stylesheet.scss */
+/* line 28, ../sass/stylesheet.scss */
 .navbar-default {
   background-color: rgba(255, 255, 255, 0.51);
+  margin-top: 30px;
   border: none;
 }
 
-/* line 31, ../sass/stylesheet.scss */
+/* line 33, ../sass/stylesheet.scss */
 .navbar-brand {
   margin-top: -40px;
 }
 
-/* line 34, ../sass/stylesheet.scss */
+/* line 36, ../sass/stylesheet.scss */
 .navbar-brand img {
   width: 100px;
   padding: 0;
 }
 
-/* line 38, ../sass/stylesheet.scss */
+/* line 40, ../sass/stylesheet.scss */
 .navbar-default .navbar-nav > li {
   background-color: #b2171d;
   font-family: "Ametist", cursive;
@@ -132,19 +134,19 @@ body, .jumbotron {
   border-radius: 15px;
 }
 
-/* line 48, ../sass/stylesheet.scss */
+/* line 50, ../sass/stylesheet.scss */
 .navbar-default .navbar-nav > li > a {
   color: #e6e0b7;
 }
 
-/* line 52, ../sass/stylesheet.scss */
+/* line 54, ../sass/stylesheet.scss */
 .navbar-default .navbar-nav > li > a:hover {
   transition: all .5s;
   text-decoration: none;
   color: white;
 }
 
-/* line 57, ../sass/stylesheet.scss */
+/* line 59, ../sass/stylesheet.scss */
 .navbar-right .btn-default {
   background-color: #b2171d;
   margin-left: 1px;
@@ -154,68 +156,82 @@ body, .jumbotron {
   border-radius: 10px;
 }
 
-/* line 65, ../sass/stylesheet.scss */
+/* line 67, ../sass/stylesheet.scss */
 .navbar-right .btn-default .search-text {
   font-family: "Ametist", cursive;
   color: #e6e0b7;
   font-size: 14px;
 }
 
-/* line 70, ../sass/stylesheet.scss */
+/* line 72, ../sass/stylesheet.scss */
 .navbar-right .btn-default .search-text:hover {
   transition: all .5s;
   text-decoration: none;
   color: white;
 }
 
-/* line 75, ../sass/stylesheet.scss */
+/* line 77, ../sass/stylesheet.scss */
 .form-control {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
 
-/* line 80, ../sass/stylesheet.scss */
+/* line 82, ../sass/stylesheet.scss */
 .form-control input {
   color: #e6e0b7;
 }
 
-/* Content */
-/* line 85, ../sass/stylesheet.scss */
-.index_content {
-  background-color: #fffff5;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border: 1px solid #bdb09d;
-  margin-top: 30px;
+/* SLIDER */
+/* line 86, ../sass/stylesheet.scss */
+#carousel-container {
+  margin-top: 20px;
 }
 
-/* line 94, ../sass/stylesheet.scss */
-.index_content > p {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
-  font-family: "Jura", "san-serif";
+/* line 89, ../sass/stylesheet.scss */
+#custom_carousel img {
+  max-height: 600px;
+  background-size: cover;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 96, ../sass/stylesheet.scss */
+.carousel-inner .item {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
 }
 
 /* line 101, ../sass/stylesheet.scss */
+.controls img {
+  float: right;
+  background-size: cover;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+/* -------------- HOT, BAKE, SNACK, DESSERT, ADVICE --------------*/
+/* Content */
+/* line 111, ../sass/stylesheet.scss */
 .content {
   background-color: #fffff5;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  border: 1px solid #bdb09d;
+  border: 1px solid rgba(189, 176, 157, 0.51);
   margin-top: 170px;
 }
 
-/* line 110, ../sass/stylesheet.scss */
+/* line 120, ../sass/stylesheet.scss */
 .content_text {
   margin-top: 10px;
   text-align: center;
 }
 
-/* line 115, ../sass/stylesheet.scss */
+/* line 125, ../sass/stylesheet.scss */
 .content_text > a {
   text-decoration: none;
   font-family: "Ametist", cursive;
@@ -223,13 +239,13 @@ body, .jumbotron {
   color: black;
 }
 
-/* line 122, ../sass/stylesheet.scss */
+/* line 132, ../sass/stylesheet.scss */
 .content_text > a:hover {
   text-decoration: none;
   color: #b2171d;
 }
 
-/* line 127, ../sass/stylesheet.scss */
+/* line 137, ../sass/stylesheet.scss */
 .content_text > a > img {
   border: 1px solid #bdb09d;
   border-radius: 30px;
@@ -239,27 +255,27 @@ body, .jumbotron {
 }
 
 /* Advice page */
-/* line 136, ../sass/stylesheet.scss */
+/* line 146, ../sass/stylesheet.scss */
 #advice-img_1 {
   width: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 142, ../sass/stylesheet.scss */
+/* line 152, ../sass/stylesheet.scss */
 .advice-img {
   width: 50px;
   margin-bottom: 20px;
 }
 
-/* line 147, ../sass/stylesheet.scss */
+/* line 157, ../sass/stylesheet.scss */
 .advice_text {
   margin-top: 9px;
   margin-left: -20px;
   text-align: justify;
 }
 
-/* line 153, ../sass/stylesheet.scss */
+/* line 163, ../sass/stylesheet.scss */
 .advice_text > a {
   text-decoration: none;
   font-family: "Ametist", cursive;
@@ -267,20 +283,20 @@ body, .jumbotron {
   color: black;
 }
 
-/* line 160, ../sass/stylesheet.scss */
+/* line 170, ../sass/stylesheet.scss */
 .advice_text > a:hover {
   text-decoration: none;
   color: #b2171d;
 }
 
-/* line 165, ../sass/stylesheet.scss */
+/* line 175, ../sass/stylesheet.scss */
 .advice_text_1 {
   margin-top: 27px;
   margin-left: -20px;
   text-align: justify;
 }
 
-/* line 171, ../sass/stylesheet.scss */
+/* line 181, ../sass/stylesheet.scss */
 .advice_text_1 > a {
   text-decoration: none;
   font-family: "Ametist", cursive;
@@ -288,25 +304,25 @@ body, .jumbotron {
   color: black;
 }
 
-/* line 178, ../sass/stylesheet.scss */
+/* line 188, ../sass/stylesheet.scss */
 .advice_text_1 > a:hover {
   text-decoration: none;
   color: #b2171d;
 }
 
-/* line 183, ../sass/stylesheet.scss */
+/* line 193, ../sass/stylesheet.scss */
 .advice_text_2 {
   font-family: "Jura", "san-serif";
   margin: 10px 20px 10px 20px;
   text-align: justify;
 }
 
-/* line 189, ../sass/stylesheet.scss */
+/* line 199, ../sass/stylesheet.scss */
 .advice_text_2 > h1 {
   text-align: center;
 }
 
-/* line 193, ../sass/stylesheet.scss */
+/* line 203, ../sass/stylesheet.scss */
 .advice_text_2 > ul > li {
   font-size: 22px;
   margin-top: 30px;
@@ -314,7 +330,7 @@ body, .jumbotron {
   font-weight: bold;
 }
 
-/* line 199, ../sass/stylesheet.scss */
+/* line 209, ../sass/stylesheet.scss */
 .advice_text_2 > ol > li {
   font-size: 22px;
   margin-top: 30px;
@@ -322,7 +338,7 @@ body, .jumbotron {
 }
 
 /* Recepies page */
-/* line 206, ../sass/stylesheet.scss */
+/* line 216, ../sass/stylesheet.scss */
 .recepie_img {
   border: 1px solid #bdb09d;
   margin-top: 20px;
@@ -334,49 +350,49 @@ body, .jumbotron {
   max-width: 100%;
 }
 
-/* line 217, ../sass/stylesheet.scss */
+/* line 227, ../sass/stylesheet.scss */
 .ingridients {
   font-family: "Jura", "san-serif";
   font-size: 18px;
 }
 
-/* line 222, ../sass/stylesheet.scss */
+/* line 232, ../sass/stylesheet.scss */
 .ingridients > ul {
   margin-top: 15px;
   margin-bottom: 20px;
   margin-left: 40px;
 }
 
-/* line 228, ../sass/stylesheet.scss */
+/* line 238, ../sass/stylesheet.scss */
 .recepie_text {
   text-align: justify;
   font-family: "Jura", "san-serif";
   margin-top: 15px;
 }
 
-/* line 234, ../sass/stylesheet.scss */
+/* line 244, ../sass/stylesheet.scss */
 .recepie_text > h1 {
   text-align: center;
   margin-bottom: 5px;
 }
 
-/* line 239, ../sass/stylesheet.scss */
+/* line 249, ../sass/stylesheet.scss */
 .recepie_text > ol {
   font-size: 20px;
 }
 
-/* line 242, ../sass/stylesheet.scss */
+/* line 252, ../sass/stylesheet.scss */
 .recepie_text > ul {
   font-size: 20px;
 }
 
 /* Image resize */
-/* line 247, ../sass/stylesheet.scss */
+/* line 257, ../sass/stylesheet.scss */
 .blokimg {
   position: relative;
 }
 
-/* line 250, ../sass/stylesheet.scss */
+/* line 260, ../sass/stylesheet.scss */
 .overlay {
   display: none;
   height: auto;
@@ -386,13 +402,13 @@ body, .jumbotron {
   z-index: 999;
 }
 
-/* line 258, ../sass/stylesheet.scss */
+/* line 268, ../sass/stylesheet.scss */
 .overlay .overlay_container {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 262, ../sass/stylesheet.scss */
+/* line 272, ../sass/stylesheet.scss */
 .overlay_container img {
   padding: 10px;
   border-radius: 30px;
@@ -400,18 +416,18 @@ body, .jumbotron {
   -moz-border-radius: 30px;
 }
 
-/* line 268, ../sass/stylesheet.scss */
+/* line 278, ../sass/stylesheet.scss */
 .overlay:target {
   display: table;
 }
 
 /* Share buttons */
-/* line 273, ../sass/stylesheet.scss */
+/* line 283, ../sass/stylesheet.scss */
 #share-buttons {
   margin: 15px 0px 10px 0px;
 }
 
-/* line 277, ../sass/stylesheet.scss */
+/* line 287, ../sass/stylesheet.scss */
 #share-buttons img {
   width: 35px;
   padding: 5px;
@@ -420,7 +436,7 @@ body, .jumbotron {
   display: inline-block;
 }
 
-/* line 285, ../sass/stylesheet.scss */
+/* line 295, ../sass/stylesheet.scss */
 .search {
   float: right;
 }

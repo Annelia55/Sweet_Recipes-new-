@@ -22,110 +22,102 @@
 
 </head>
     <body>
-    <div class="jumbotron">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt=""/></a>
+            </div>
 
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt=""/></a>
-                </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="hot.html">Горячее</a></li>
+                    <li><a href="bake.html">Выпечка</a></li>
+                    <li><a href="snack.html">Закуски</a></li>
+                    <li><a href="dessert.html">Десерты</a></li>
+                    <li><a href="advice.html">Советы</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Поиск вкусняшки">
+                    </div>
+                    <button type="submit" class="btn btn-default"><span class="search-text">найти</span></button>
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="hot.html">Горячее</a></li>
-                        <li><a href="bake.html">Выпечка</a></li>
-                        <li><a href="snack.html">Закуски</a></li>
-                        <li><a href="dessert.html">Десерты</a></li>
-                        <li><a href="advice.html">Советы</a></li>
-                    </ul>
-                    <form class="navbar-form navbar-right">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Поиск вкусняшки">
-                        </div>
-                        <button type="submit" class="btn btn-default"><span class="search-text">найти</span></button>
-                    </form>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <div class="col-md-10 slider">
-                        <div class="clearfix"></div>
-                        <!-- carousel -->
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                            </ol>
+    <!-- SLIDER -->
+    <div class="container-fluid">
+        <div class="row no-gutter" id="carousel-container">
+            <div class="col-md-12">
+                <div class="col-md-10">
+                    <div id="custom_carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+                        <!-- Wrapper for slides -->
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img src="images/Slide_2.jpg" alt="">
-                                    <div class="container">
-                                        <div class="carousel-caption">
-                                            <h1><span class="glyphicon glyphicon-grain"></span> Конфеты "Рафаэлло" <span class="glyphicon glyphicon-grain"></span></h1>
-                                            <p><a class="btn btn-lg btn-opacity" href="Dessert_recepies/Dessert_2.html" role="button">Узнать рецепт</a></p>
+                                    <div class="container-fluid pop">
+                                        <div class="row no-gutter">
+                                            <div class="col-md-12">
+                                                <img class="img-responsive" src="images/Slide1.jpg">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="images/Slide_1.jpg" alt="">
-                                    <div class="container">
-                                        <div class="carousel-caption">
-                                            <h1><span class="glyphicon glyphicon-grain"></span> Маффины <span class="glyphicon glyphicon-grain"></span></h1>
-                                            <p><a class="btn btn-lg btn-opacity" href="Bake_recepies/Bake_8.html" role="button">Узнать рецепт</a></p>
+                                    <div class="container-fluid">
+                                        <div class="row no-gutter">
+                                            <div class="col-md-12">
+                                                <img class="img-responsive" src="images/Slide2.jpg">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="images/Slide_3.jpg" alt="">
-                                    <div class="container">
-                                        <div class="carousel-caption">
-                                            <h1><span class="glyphicon glyphicon-grain"></span> Орешки <span class="glyphicon glyphicon-grain"></span></h1>
-                                            <p><a class="btn btn-lg btn-opacity" href="Dessert_recepies/Dessert_8.html" role="button">Узнать рецепт</a></p>
+                                    <div class="container-fluid">
+                                        <div class="row no-gutter">
+                                            <div class="col-md-12">
+                                                <img class="img-responsive" src="images/Slide3.jpg">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="item">
+                                    <div class="container-fluid">
+                                        <div class="row no-gutter">
+                                            <div class="col-md-12">
+                                                <img class="img-responsive" src="images/Slide4.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Item -->
                             </div>
-                            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                            <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-                        </div>
-                        <!-- /.carousel -->
-                        <div class="clearfix"></div>
+                        <!-- End Carousel Inner -->
                     </div>
-
-                    <div class="col-md-1">
-                    </div>
+                    <!-- End Carousel -->
                 </div>
-
-                <div class="col-md-12">
-                    <div class="col-md-2">
-                    </div>
-
-                    <div class="col-md-8 index_content">
-                        <p>
-                            Добро пожаловать на кулинарный сайт, где собраны <b>проверенные</b> рецепты простых и не очень блюд.
-                            <br>Найдите то, что придётся по душе именно Вам.
-                        </p>
-                    </div>
-
-                    <div class="col-md-2">
+                <div class="col-md-2 no-gutter">
+                    <div class="controls">
+                        <ul>
+                            <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#"><img class="img-responsive" src="images/Slide1-mini.jpg"></a></li>
+                            <li data-target="#custom_carousel" data-slide-to="1"><a href="#"><img class="img-responsive" src="images/Slide2-mini.jpg"></a></li>
+                            <li data-target="#custom_carousel" data-slide-to="2"><a href="#"><img class="img-responsive" src="images/Slide3-mini.jpg"></a></li>
+                            <li data-target="#custom_carousel" data-slide-to="3"><a href="#"><img class="img-responsive" src="images/Slide4-mini.jpg"></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+
 
 
     <!-- jQuery -->
