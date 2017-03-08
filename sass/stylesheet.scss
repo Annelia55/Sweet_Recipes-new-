@@ -17,10 +17,18 @@ a {
   }
 }
 body {
-  background-image: url(../images/bg_1.jpg);
+  background-image: url(../images/bg2.jpg);
   background-attachment: fixed;
+  background-size: cover;
   background-position: 0 0;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+}
+#index-bg {
+  background-image: url(../images/bg1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 /* -------------- INDEX.HTML --------------*/
@@ -45,19 +53,22 @@ body {
   -webkit-border-radius: 15px;
      -moz-border-radius: 15px;
           border-radius: 15px;
-
 }
 .navbar-default .navbar-nav > li > a {
   color: #e6e0b7;
+  -webkit-transition: all ease 1.0s;
+     -moz-transition: all ease 1.0s;
+          transition: all ease 1.0s;
 }
-
 .navbar-default .navbar-nav > li > a:hover {
-  transition: all .5s;
   text-decoration: none;
   color: white;
+  -webkit-transition: all ease .5s;
+     -moz-transition: all ease .5s;
+          transition: all ease .5s;
 }
 .navbar-right .btn-default {
-    background-color: #b2171d;
+  background-color: #b2171d;
   margin-left: 1px;
   border: none;
   -webkit-border-radius: 10px;
@@ -82,28 +93,53 @@ body {
 .form-control input {
   color: #e6e0b7;
 }
-/* SLIDER */
+
+/* GALLERY */
 #carousel-container {
-  margin-top: 20px;
+  margin-top: 50px;
+}
+.sliders-section {
+  border: 5px dashed #000;
 }
 #custom_carousel img {
   max-height: 600px;
   background-size: cover;
-  -webkit-border-radius: 20px;
-     -moz-border-radius: 20px;
-          border-radius: 20px;
 }
-.carousel-inner .item {
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
+#custom_carousel a h1 {
+  position: absolute;
+  top: 92%;
+  left: 70%;
+  font-family: "Ametist", cursive;
+  color: #fff;
+  font-size: 30px;
+}
+.controls ul li a {
+  text-align: center;
 }
 .controls img {
-  float: right;
+  margin: 0 auto;
+  height: auto;
+  max-width: 215px;
   background-size: cover;
-  -webkit-border-radius: 15px;
-     -moz-border-radius: 15px;
-          border-radius: 15px;
+  filter: brightness(60%);
+  -webkit-transition: all ease 1.0s;
+     -moz-transition: all ease 1.0s;
+          transition: all ease 1.0s;
+}
+.controls img:hover {
+  cursor: pointer;
+  filter: brightness(100%);
+  -webkit-transition: all ease .25s;
+     -moz-transition: all ease .25s;
+          transition: all ease .25s;
+}
+.controls li .active {
+  filter: brightness(100%);
+  -webkit-transition: all ease .5s;
+     -moz-transition: all ease .5s;
+          transition: all ease .5s;
+
+
 }
 
 /* -------------- HOT, BAKE, SNACK, DESSERT, ADVICE --------------*/
@@ -114,7 +150,7 @@ body {
   -moz-border-radius: 10px;
   border-radius: 10px;
   border: 1px solid rgba(189, 176, 157, 0.51);
-  margin-top: 170px;
+  margin-top: 70px;
 }
 
 .content_text {
