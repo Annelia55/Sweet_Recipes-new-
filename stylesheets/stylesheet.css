@@ -97,14 +97,13 @@ a:hover {
 
 /* line 19, ../sass/stylesheet.scss */
 body {
-  background-image: url(../images/bg2.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: 0 0;
-  background-repeat: no-repeat;
+  background-image: url(../images/bg4.jpg);
+  background-attachment: scroll;
+  background-size: contain;
+  background-repeat: repeat;
 }
 
-/* line 26, ../sass/stylesheet.scss */
+/* line 25, ../sass/stylesheet.scss */
 #index-bg {
   background-image: url(../images/bg1.jpg);
   background-attachment: fixed;
@@ -115,7 +114,7 @@ body {
 
 /* -------------- INDEX.HTML --------------*/
 /* NAVBAR */
-/* line 36, ../sass/stylesheet.scss */
+/* line 35, ../sass/stylesheet.scss */
 .navbar-default {
   background-color: rgba(255, 255, 255, 0.51);
   margin-top: 30px;
@@ -123,17 +122,6 @@ body {
 }
 
 /* line 41, ../sass/stylesheet.scss */
-.navbar-brand {
-  margin-top: -40px;
-}
-
-/* line 44, ../sass/stylesheet.scss */
-.navbar-brand img {
-  width: 100px;
-  padding: 0;
-}
-
-/* line 48, ../sass/stylesheet.scss */
 .navbar-default .navbar-nav > li {
   background-color: #b2171d;
   font-family: "Ametist", cursive;
@@ -144,7 +132,7 @@ body {
   border-radius: 15px;
 }
 
-/* line 57, ../sass/stylesheet.scss */
+/* line 50, ../sass/stylesheet.scss */
 .navbar-default .navbar-nav > li > a {
   color: #e6e0b7;
   -webkit-transition: all ease 1.0s;
@@ -152,13 +140,24 @@ body {
   transition: all ease 1.0s;
 }
 
-/* line 63, ../sass/stylesheet.scss */
+/* line 56, ../sass/stylesheet.scss */
 .navbar-default .navbar-nav > li > a:hover {
   text-decoration: none;
   color: white;
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   transition: all ease .5s;
+}
+
+/* line 63, ../sass/stylesheet.scss */
+.navbar-brand {
+  margin-top: -40px;
+}
+
+/* line 66, ../sass/stylesheet.scss */
+.navbar-brand img {
+  width: 100px;
+  padding: 0;
 }
 
 /* line 70, ../sass/stylesheet.scss */
@@ -214,22 +213,59 @@ body {
   background-size: cover;
 }
 
-/* line 108, ../sass/stylesheet.scss */
+/* line 109, ../sass/stylesheet.scss */
 #custom_carousel a h1 {
   position: absolute;
-  top: 92%;
-  left: 70%;
+  bottom: 3%;
+  right: 2%;
   font-family: "Ametist", cursive;
-  color: #fff;
+  color: #e6e0b7;
   font-size: 30px;
+  padding: 10px;
+  background-color: rgba(178, 23, 29, 0.8);
+  border: 1px solid #e6e0b7;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-transition: all ease 1.0s;
+  -moz-transition: all ease 1.0s;
+  transition: all ease 1.0s;
 }
 
-/* line 116, ../sass/stylesheet.scss */
+/* line 127, ../sass/stylesheet.scss */
+#custom_carousel a h1:hover {
+  color: white;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+/* line 133, ../sass/stylesheet.scss */
+#slide-title-1 {
+  -webkit-animation-delay: 0.8s;
+}
+
+/* line 136, ../sass/stylesheet.scss */
+#slide-title-2 {
+  -webkit-animation-delay: 0.8s;
+}
+
+/* line 139, ../sass/stylesheet.scss */
+#slide-title-3 {
+  -webkit-animation-delay: 0.8s;
+}
+
+/* line 142, ../sass/stylesheet.scss */
+#slide-title-4 {
+  -webkit-animation-delay: 0.8s;
+}
+
+/* line 146, ../sass/stylesheet.scss */
 .controls ul li a {
   text-align: center;
 }
 
-/* line 119, ../sass/stylesheet.scss */
+/* line 149, ../sass/stylesheet.scss */
 .controls img {
   margin: 0 auto;
   height: auto;
@@ -241,7 +277,7 @@ body {
   transition: all ease 1.0s;
 }
 
-/* line 129, ../sass/stylesheet.scss */
+/* line 159, ../sass/stylesheet.scss */
 .controls img:hover {
   cursor: pointer;
   filter: brightness(100%);
@@ -250,7 +286,7 @@ body {
   transition: all ease .25s;
 }
 
-/* line 136, ../sass/stylesheet.scss */
+/* line 166, ../sass/stylesheet.scss */
 .controls li .active {
   filter: brightness(100%);
   -webkit-transition: all ease .5s;
@@ -260,67 +296,73 @@ body {
 
 /* -------------- HOT, BAKE, SNACK, DESSERT, ADVICE --------------*/
 /* Content */
-/* line 147, ../sass/stylesheet.scss */
+/* line 175, ../sass/stylesheet.scss */
 .content {
-  background-color: #fffff5;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  border: 1px solid rgba(189, 176, 157, 0.51);
-  margin-top: 70px;
+  margin-left: 20px;
 }
 
-/* line 156, ../sass/stylesheet.scss */
+/* line 178, ../sass/stylesheet.scss */
 .content_text {
-  margin-top: 10px;
+  background-image: url(../images/content-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
   text-align: center;
 }
 
-/* line 161, ../sass/stylesheet.scss */
+/* line 185, ../sass/stylesheet.scss */
 .content_text > a {
   text-decoration: none;
+  color: #68310f;
   font-family: "Ametist", cursive;
-  font-size: 30px !important;
-  color: black;
+  font-size: 28px;
+  -webkit-transition: all ease 1.0s;
+  -moz-transition: all ease 1.0s;
+  transition: all ease 1.0s;
 }
 
-/* line 168, ../sass/stylesheet.scss */
+/* line 194, ../sass/stylesheet.scss */
 .content_text > a:hover {
   text-decoration: none;
   color: #b2171d;
+  -webkit-transition: all ease .25s;
+  -moz-transition: all ease .25s;
+  transition: all ease .25s;
 }
 
-/* line 173, ../sass/stylesheet.scss */
+/* line 201, ../sass/stylesheet.scss */
 .content_text > a > img {
-  border: 1px solid #bdb09d;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  margin: 30px 0px 40px 0px;
+  border: 1px solid #68310f;
+  max-width: 375px;
+  height: auto;
+  margin-top: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
 
 /* Advice page */
-/* line 182, ../sass/stylesheet.scss */
+/* line 212, ../sass/stylesheet.scss */
 #advice-img_1 {
   width: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 188, ../sass/stylesheet.scss */
+/* line 218, ../sass/stylesheet.scss */
 .advice-img {
   width: 50px;
   margin-bottom: 20px;
 }
 
-/* line 193, ../sass/stylesheet.scss */
+/* line 223, ../sass/stylesheet.scss */
 .advice_text {
   margin-top: 9px;
   margin-left: -20px;
   text-align: justify;
 }
 
-/* line 199, ../sass/stylesheet.scss */
+/* line 229, ../sass/stylesheet.scss */
 .advice_text > a {
   text-decoration: none;
   font-family: "Ametist", cursive;
@@ -328,20 +370,20 @@ body {
   color: black;
 }
 
-/* line 206, ../sass/stylesheet.scss */
+/* line 236, ../sass/stylesheet.scss */
 .advice_text > a:hover {
   text-decoration: none;
   color: #b2171d;
 }
 
-/* line 211, ../sass/stylesheet.scss */
+/* line 241, ../sass/stylesheet.scss */
 .advice_text_1 {
   margin-top: 27px;
   margin-left: -20px;
   text-align: justify;
 }
 
-/* line 217, ../sass/stylesheet.scss */
+/* line 247, ../sass/stylesheet.scss */
 .advice_text_1 > a {
   text-decoration: none;
   font-family: "Ametist", cursive;
@@ -349,25 +391,25 @@ body {
   color: black;
 }
 
-/* line 224, ../sass/stylesheet.scss */
+/* line 254, ../sass/stylesheet.scss */
 .advice_text_1 > a:hover {
   text-decoration: none;
   color: #b2171d;
 }
 
-/* line 229, ../sass/stylesheet.scss */
+/* line 259, ../sass/stylesheet.scss */
 .advice_text_2 {
   font-family: "Jura", "san-serif";
   margin: 10px 20px 10px 20px;
   text-align: justify;
 }
 
-/* line 235, ../sass/stylesheet.scss */
+/* line 265, ../sass/stylesheet.scss */
 .advice_text_2 > h1 {
   text-align: center;
 }
 
-/* line 239, ../sass/stylesheet.scss */
+/* line 269, ../sass/stylesheet.scss */
 .advice_text_2 > ul > li {
   font-size: 22px;
   margin-top: 30px;
@@ -375,7 +417,7 @@ body {
   font-weight: bold;
 }
 
-/* line 245, ../sass/stylesheet.scss */
+/* line 275, ../sass/stylesheet.scss */
 .advice_text_2 > ol > li {
   font-size: 22px;
   margin-top: 30px;
@@ -383,7 +425,7 @@ body {
 }
 
 /* Recepies page */
-/* line 252, ../sass/stylesheet.scss */
+/* line 282, ../sass/stylesheet.scss */
 .recepie_img {
   border: 1px solid #bdb09d;
   margin-top: 20px;
@@ -395,49 +437,49 @@ body {
   max-width: 100%;
 }
 
-/* line 263, ../sass/stylesheet.scss */
+/* line 293, ../sass/stylesheet.scss */
 .ingridients {
   font-family: "Jura", "san-serif";
   font-size: 18px;
 }
 
-/* line 268, ../sass/stylesheet.scss */
+/* line 298, ../sass/stylesheet.scss */
 .ingridients > ul {
   margin-top: 15px;
   margin-bottom: 20px;
   margin-left: 40px;
 }
 
-/* line 274, ../sass/stylesheet.scss */
+/* line 304, ../sass/stylesheet.scss */
 .recepie_text {
   text-align: justify;
   font-family: "Jura", "san-serif";
   margin-top: 15px;
 }
 
-/* line 280, ../sass/stylesheet.scss */
+/* line 310, ../sass/stylesheet.scss */
 .recepie_text > h1 {
   text-align: center;
   margin-bottom: 5px;
 }
 
-/* line 285, ../sass/stylesheet.scss */
+/* line 315, ../sass/stylesheet.scss */
 .recepie_text > ol {
   font-size: 20px;
 }
 
-/* line 288, ../sass/stylesheet.scss */
+/* line 318, ../sass/stylesheet.scss */
 .recepie_text > ul {
   font-size: 20px;
 }
 
 /* Image resize */
-/* line 293, ../sass/stylesheet.scss */
+/* line 323, ../sass/stylesheet.scss */
 .blokimg {
   position: relative;
 }
 
-/* line 296, ../sass/stylesheet.scss */
+/* line 326, ../sass/stylesheet.scss */
 .overlay {
   display: none;
   height: auto;
@@ -447,13 +489,13 @@ body {
   z-index: 999;
 }
 
-/* line 304, ../sass/stylesheet.scss */
+/* line 334, ../sass/stylesheet.scss */
 .overlay .overlay_container {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 308, ../sass/stylesheet.scss */
+/* line 338, ../sass/stylesheet.scss */
 .overlay_container img {
   padding: 10px;
   border-radius: 30px;
@@ -461,18 +503,18 @@ body {
   -moz-border-radius: 30px;
 }
 
-/* line 314, ../sass/stylesheet.scss */
+/* line 344, ../sass/stylesheet.scss */
 .overlay:target {
   display: table;
 }
 
 /* Share buttons */
-/* line 319, ../sass/stylesheet.scss */
+/* line 349, ../sass/stylesheet.scss */
 #share-buttons {
   margin: 15px 0px 10px 0px;
 }
 
-/* line 323, ../sass/stylesheet.scss */
+/* line 353, ../sass/stylesheet.scss */
 #share-buttons img {
   width: 35px;
   padding: 5px;
@@ -481,7 +523,7 @@ body {
   display: inline-block;
 }
 
-/* line 331, ../sass/stylesheet.scss */
+/* line 361, ../sass/stylesheet.scss */
 .search {
   float: right;
 }

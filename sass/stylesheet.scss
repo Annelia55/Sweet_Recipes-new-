@@ -17,11 +17,10 @@ a {
   }
 }
 body {
-  background-image: url(../images/bg2.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: 0 0;
-  background-repeat: no-repeat;
+  background-image: url(../images/bg4.jpg);
+  background-attachment: scroll;
+  background-size: contain;
+  background-repeat: repeat;
 }
 #index-bg {
   background-image: url(../images/bg1.jpg);
@@ -38,13 +37,7 @@ body {
   margin-top: 30px;
   border: none;
 }
-.navbar-brand {
-  margin-top: -40px;
-}
-.navbar-brand img {
-  width: 100px;
-  padding: 0;
-}
+
 .navbar-default .navbar-nav > li {
   background-color: #b2171d;
   font-family: "Ametist", cursive;
@@ -66,6 +59,13 @@ body {
   -webkit-transition: all ease .5s;
      -moz-transition: all ease .5s;
           transition: all ease .5s;
+}
+.navbar-brand {
+  margin-top: -40px;
+}
+.navbar-brand img {
+  width: 100px;
+  padding: 0;
 }
 .navbar-right .btn-default {
   background-color: #b2171d;
@@ -105,14 +105,44 @@ body {
   max-height: 600px;
   background-size: cover;
 }
+
 #custom_carousel a h1 {
   position: absolute;
-  top: 92%;
-  left: 70%;
+  bottom: 3%;
+  right: 2%;
   font-family: "Ametist", cursive;
-  color: #fff;
+  color: #e6e0b7;
   font-size: 30px;
+  padding: 10px;
+  background-color: rgba(178, 23, 29, 0.80);
+  border: 1px solid #e6e0b7;
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+  -webkit-transition: all ease 1.0s;
+     -moz-transition: all ease 1.0s;
+          transition: all ease 1.0s;
+
 }
+#custom_carousel a h1:hover {
+  color: white;
+  -webkit-transition: all ease .5s;
+     -moz-transition: all ease .5s;
+          transition: all ease .5s;
+}
+#slide-title-1 {
+  -webkit-animation-delay: 0.8s;
+}
+#slide-title-2 {
+  -webkit-animation-delay: 0.8s;
+}
+#slide-title-3 {
+  -webkit-animation-delay: 0.8s;
+}
+#slide-title-4 {
+  -webkit-animation-delay: 0.8s;
+}
+
 .controls ul li a {
   text-align: center;
 }
@@ -138,44 +168,44 @@ body {
   -webkit-transition: all ease .5s;
      -moz-transition: all ease .5s;
           transition: all ease .5s;
-
-
 }
 
 /* -------------- HOT, BAKE, SNACK, DESSERT, ADVICE --------------*/
 /* Content */
 .content {
-  background-color: #fffff5;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  border: 1px solid rgba(189, 176, 157, 0.51);
-  margin-top: 70px;
+  margin-left: 20px;
 }
-
 .content_text {
-  margin-top: 10px;
+  background-image: url(../images/content-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
   text-align: center;
 }
-
 .content_text > a {
   text-decoration: none;
+  color: #68310f;
   font-family: "Ametist", cursive;
-  font-size: 30px !important;
-  color: black;
+  font-size: 28px;
+  -webkit-transition: all ease 1.0s;
+     -moz-transition: all ease 1.0s;
+          transition: all ease 1.0s;
 }
-
 .content_text > a:hover {
   text-decoration: none;
   color: #b2171d;
+  -webkit-transition: all ease .25s;
+     -moz-transition: all ease .25s;
+          transition: all ease .25s;
 }
-
 .content_text > a > img {
-  border: 1px solid #bdb09d;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  margin: 30px 0px 40px 0px;
+  border: 1px solid #68310f;
+  max-width:375px;
+  height: auto;
+  margin-top: 10px;
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+          border-radius: 20px;
 }
 
 /* Advice page */
