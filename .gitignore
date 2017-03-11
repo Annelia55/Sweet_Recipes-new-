@@ -3,3 +3,7 @@
 .sass-cache/
 *.css.map
 
+#Images
+*.psd
+*.ai
+*.csv

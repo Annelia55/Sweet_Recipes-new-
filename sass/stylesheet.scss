@@ -2,6 +2,19 @@
 
 @include font-face("Ametist", font-files("Ametist.ttf"));
 
+@mixin transition($time) {
+  -webkit-transition: all ease $time;
+  -moz-transition: all ease $time;
+  -o-transition: all ease $time;
+  transition: all ease $time;
+}
+@mixin transition-1s {
+  -webkit-transition: all ease 1.0s;
+  -moz-transition: all ease 1.0s;
+  -o-transition: all ease 1.0s;
+  transition: all ease 1.0s;
+}
+
 $color-red: #b2171d;
 $color-gold: #e6e0b7;
 $color-brown: #68310f;
@@ -11,31 +24,25 @@ $border-brown: 1px solid $color-brown;
 $font-Ametist: "Ametist", cursive;
 $font-size-default: 14px;
 
-@mixin transition($time) {
-  -webkit-transition: all ease $time;
-     -moz-transition: all ease $time;
-       -o-transition: all ease $time;
-          transition: all ease $time;
-}
-@mixin transition-1s {
-  -webkit-transition: all ease 1.0s;
-     -moz-transition: all ease 1.0s;
-       -o-transition: all ease 1.0s;
-          transition: all ease 1.0s;
-}
 %link-hover {
   @include transition(.5s);
   text-decoration: none;
   color: white;
 }
+%recipe-title {
+  color: $color-brown;
+  font-family: $font-Ametist;
+  font-size: $font-size-default*2;
+}
 
-/* for Bootstrap */
+/* Bootstrap settings */
 .no-margin {margin: 0 !important}
 .no-gutter > [class*='col-'] {
   padding-right:0;
   padding-left:0;
 }
-/**/
+
+/* Global */
 .left {float: left;}
 .right {float: right;}
 a {
@@ -189,10 +196,7 @@ body {
       text-align: center;
         a {
           @include transition-1s;
-          color: $color-brown;
-          text-decoration: none;
-          font-family: $font-Ametist;
-          font-size: $font-size-default*2;
+          @extend %recipe-title;
             &:hover {
               @include transition(.25s);
               color: $color-red;
@@ -219,6 +223,7 @@ body {
       margin-top: 100px;
     }
     h1{
+      @extend %recipe-title;
       text-align: center;
     }
     img {
@@ -226,6 +231,8 @@ body {
       border: $border-brown;
       height: auto;
       max-width: 600px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
     .recipe_text {
       text-align: justify;
@@ -235,7 +242,6 @@ body {
 }
 
 /* Advice page */
-
 .advice-img {
   width: 50px;
   margin-bottom: 20px;

@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "Ametist";
   src: url('../fonts/Ametist.ttf') format('truetype');
 }
-/* line 26, ../sass/stylesheet.scss */
+/* line 27, ../sass/stylesheet.scss */
 .navbar-default .navbar-nav > li a:hover, .navbar-default .navbar-right .btn-default .search-text:hover {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
@@ -77,36 +77,43 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: white;
 }
 
-/* for Bootstrap */
-/* line 33, ../sass/stylesheet.scss */
+/* line 32, ../sass/stylesheet.scss */
+.recipe-section .content_text a, .recipe-content h1 {
+  color: #68310f;
+  font-family: "Ametist", cursive;
+  font-size: 28px;
+}
+
+/* Bootstrap settings */
+/* line 39, ../sass/stylesheet.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 34, ../sass/stylesheet.scss */
+/* line 40, ../sass/stylesheet.scss */
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
-/**/
-/* line 39, ../sass/stylesheet.scss */
+/* Global */
+/* line 46, ../sass/stylesheet.scss */
 .left {
   float: left;
 }
 
-/* line 40, ../sass/stylesheet.scss */
+/* line 47, ../sass/stylesheet.scss */
 .right {
   float: right;
 }
 
-/* line 42, ../sass/stylesheet.scss */
+/* line 49, ../sass/stylesheet.scss */
 a:hover {
   text-decoration: none;
   cursor: pointer;
 }
 
-/* line 47, ../sass/stylesheet.scss */
+/* line 54, ../sass/stylesheet.scss */
 body {
   background-image: url(../images/bg4.jpg);
   background-repeat: repeat;
@@ -114,7 +121,7 @@ body {
   background-size: contain;
 }
 
-/* line 53, ../sass/stylesheet.scss */
+/* line 60, ../sass/stylesheet.scss */
 #index-bg {
   background-image: url(../images/bg1.jpg);
   background-repeat: repeat;
@@ -124,22 +131,22 @@ body {
 
 /* -------------- INDEX.HTML --------------*/
 /* NAVBAR */
-/* line 62, ../sass/stylesheet.scss */
+/* line 69, ../sass/stylesheet.scss */
 .navbar-default {
   background-color: rgba(255, 255, 255, 0.51);
   margin-top: 30px;
   border: none;
 }
-/* line 66, ../sass/stylesheet.scss */
+/* line 73, ../sass/stylesheet.scss */
 .navbar-default .navbar-brand {
   margin-top: -40px;
 }
-/* line 68, ../sass/stylesheet.scss */
+/* line 75, ../sass/stylesheet.scss */
 .navbar-default .navbar-brand img {
   width: 100px;
   padding: 0;
 }
-/* line 73, ../sass/stylesheet.scss */
+/* line 80, ../sass/stylesheet.scss */
 .navbar-default .navbar-nav > li {
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -149,7 +156,7 @@ body {
   font-size: 18px;
   margin-left: 1px;
 }
-/* line 79, ../sass/stylesheet.scss */
+/* line 86, ../sass/stylesheet.scss */
 .navbar-default .navbar-nav > li a {
   -webkit-transition: all ease 1.0s;
   -moz-transition: all ease 1.0s;
@@ -157,17 +164,17 @@ body {
   transition: all ease 1.0s;
   color: #e6e0b7;
 }
-/* line 88, ../sass/stylesheet.scss */
+/* line 95, ../sass/stylesheet.scss */
 .navbar-default .navbar-right .form-control {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
 }
-/* line 90, ../sass/stylesheet.scss */
+/* line 97, ../sass/stylesheet.scss */
 .navbar-default .navbar-right .form-control input {
   color: #e6e0b7;
 }
-/* line 94, ../sass/stylesheet.scss */
+/* line 101, ../sass/stylesheet.scss */
 .navbar-default .navbar-right .btn-default {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -176,7 +183,7 @@ body {
   margin-left: 1px;
   border: none;
 }
-/* line 99, ../sass/stylesheet.scss */
+/* line 106, ../sass/stylesheet.scss */
 .navbar-default .navbar-right .btn-default .search-text {
   -webkit-transition: all ease 1.0s;
   -moz-transition: all ease 1.0s;
@@ -188,20 +195,20 @@ body {
 }
 
 /* GALLERY */
-/* line 113, ../sass/stylesheet.scss */
+/* line 120, ../sass/stylesheet.scss */
 #carousel-container {
   margin-top: 50px;
 }
-/* line 115, ../sass/stylesheet.scss */
+/* line 122, ../sass/stylesheet.scss */
 #carousel-container .sliders-section {
   border: 5px dashed #000000;
 }
-/* line 119, ../sass/stylesheet.scss */
+/* line 126, ../sass/stylesheet.scss */
 #carousel-container #custom_carousel img {
   max-height: 600px;
   background-size: cover;
 }
-/* line 123, ../sass/stylesheet.scss */
+/* line 130, ../sass/stylesheet.scss */
 #carousel-container #custom_carousel a h1 {
   -webkit-transition: all ease 1.0s;
   -moz-transition: all ease 1.0s;
@@ -220,7 +227,7 @@ body {
   padding: 10px;
   background-color: rgba(178, 23, 29, 0.8);
 }
-/* line 135, ../sass/stylesheet.scss */
+/* line 142, ../sass/stylesheet.scss */
 #carousel-container #custom_carousel a h1:hover {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
@@ -228,28 +235,28 @@ body {
   transition: all ease 0.5s;
   color: white;
 }
-/* line 140, ../sass/stylesheet.scss */
+/* line 147, ../sass/stylesheet.scss */
 #carousel-container #custom_carousel #slide-title-1 {
   -webkit-animation-delay: 0.8s;
 }
-/* line 143, ../sass/stylesheet.scss */
+/* line 150, ../sass/stylesheet.scss */
 #carousel-container #custom_carousel #slide-title-2 {
   -webkit-animation-delay: 0.8s;
 }
-/* line 146, ../sass/stylesheet.scss */
+/* line 153, ../sass/stylesheet.scss */
 #carousel-container #custom_carousel #slide-title-3 {
   -webkit-animation-delay: 0.8s;
 }
-/* line 149, ../sass/stylesheet.scss */
+/* line 156, ../sass/stylesheet.scss */
 #carousel-container #custom_carousel #slide-title-4 {
   -webkit-animation-delay: 0.8s;
 }
 
-/* line 156, ../sass/stylesheet.scss */
+/* line 163, ../sass/stylesheet.scss */
 #controls-container .controls ul li a {
   text-align: center;
 }
-/* line 159, ../sass/stylesheet.scss */
+/* line 166, ../sass/stylesheet.scss */
 #controls-container .controls li .active {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
@@ -257,7 +264,7 @@ body {
   transition: all ease 0.5s;
   filter: brightness(100%);
 }
-/* line 163, ../sass/stylesheet.scss */
+/* line 170, ../sass/stylesheet.scss */
 #controls-container .controls img {
   -webkit-transition: all ease 1.0s;
   -moz-transition: all ease 1.0s;
@@ -269,7 +276,7 @@ body {
   background-size: cover;
   filter: brightness(60%);
 }
-/* line 170, ../sass/stylesheet.scss */
+/* line 177, ../sass/stylesheet.scss */
 #controls-container .controls img:hover {
   -webkit-transition: all ease 0.25s;
   -moz-transition: all ease 0.25s;
@@ -280,15 +287,15 @@ body {
 
 /* -------------- HOT, BAKE, SNACK, DESSERT, ADVICE --------------*/
 /* Content-section */
-/* line 179, ../sass/stylesheet.scss */
+/* line 186, ../sass/stylesheet.scss */
 .recipe-section {
   margin-bottom: 50px;
 }
-/* line 181, ../sass/stylesheet.scss */
+/* line 188, ../sass/stylesheet.scss */
 .recipe-section .content {
   margin-left: 20px;
 }
-/* line 184, ../sass/stylesheet.scss */
+/* line 191, ../sass/stylesheet.scss */
 .recipe-section .content_text {
   background-image: url(../images/content-bg.png);
   background-repeat: no-repeat;
@@ -296,18 +303,14 @@ body {
   padding: 80px;
   text-align: center;
 }
-/* line 190, ../sass/stylesheet.scss */
+/* line 197, ../sass/stylesheet.scss */
 .recipe-section .content_text a {
   -webkit-transition: all ease 1.0s;
   -moz-transition: all ease 1.0s;
   -o-transition: all ease 1.0s;
   transition: all ease 1.0s;
-  color: #68310f;
-  text-decoration: none;
-  font-family: "Ametist", cursive;
-  font-size: 28px;
 }
-/* line 196, ../sass/stylesheet.scss */
+/* line 200, ../sass/stylesheet.scss */
 .recipe-section .content_text a:hover {
   -webkit-transition: all ease 0.25s;
   -moz-transition: all ease 0.25s;
@@ -315,7 +318,7 @@ body {
   transition: all ease 0.25s;
   color: #b2171d;
 }
-/* line 200, ../sass/stylesheet.scss */
+/* line 204, ../sass/stylesheet.scss */
 .recipe-section .content_text a img {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -327,7 +330,7 @@ body {
 }
 
 /* Recipes page */
-/* line 212, ../sass/stylesheet.scss */
+/* line 216, ../sass/stylesheet.scss */
 .recipe-content {
   background-image: url(../images/recipe-bg.png);
   background-repeat: no-repeat;
@@ -335,15 +338,15 @@ body {
   background-attachment: scroll;
   padding: 0 165px;
 }
-/* line 218, ../sass/stylesheet.scss */
+/* line 222, ../sass/stylesheet.scss */
 .recipe-content .recipe-title {
   margin-top: 100px;
 }
-/* line 221, ../sass/stylesheet.scss */
+/* line 225, ../sass/stylesheet.scss */
 .recipe-content h1 {
   text-align: center;
 }
-/* line 224, ../sass/stylesheet.scss */
+/* line 229, ../sass/stylesheet.scss */
 .recipe-content img {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -351,8 +354,10 @@ body {
   border: 1px solid #68310f;
   height: auto;
   max-width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-/* line 230, ../sass/stylesheet.scss */
+/* line 237, ../sass/stylesheet.scss */
 .recipe-content .recipe_text {
   text-align: justify;
   padding: 0 150px;
@@ -360,26 +365,26 @@ body {
 }
 
 /* Advice page */
-/* line 239, ../sass/stylesheet.scss */
+/* line 245, ../sass/stylesheet.scss */
 .advice-img {
   width: 50px;
   margin-bottom: 20px;
 }
 
-/* line 243, ../sass/stylesheet.scss */
+/* line 249, ../sass/stylesheet.scss */
 .advice_text {
   margin-top: 9px;
   margin-left: -20px;
   text-align: justify;
 }
-/* line 247, ../sass/stylesheet.scss */
+/* line 253, ../sass/stylesheet.scss */
 .advice_text a {
   color: #000000;
   text-decoration: none;
   font-family: "Ametist", cursive;
   font-size: 22px;
 }
-/* line 252, ../sass/stylesheet.scss */
+/* line 258, ../sass/stylesheet.scss */
 .advice_text a:hover {
   color: #b2171d;
   text-decoration: none;
