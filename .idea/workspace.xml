@@ -2,19 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c94970-22a9-4c9a-86fc-32507fcfba2e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bg4.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bg5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bg6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bg6.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/shit.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Bake/bake_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Bake/bake_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Bake/bake_1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Bake/bake_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Bake/bake_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Bake/bake_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Bake/bake_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Bake/bake_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Bake/bake_7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Bake/bake_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Bake/bake_9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Dessert/dessert_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Dessert/dessert_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Dessert/dessert_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Dessert/dessert_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Dessert/dessert_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Dessert/dessert_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Dessert/dessert_7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Dessert/dessert_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Hot/hot_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Hot/hot_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Hot/hot_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Snack/snack_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Snack/snack_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Snack/snack_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Snack/snack_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Snack/snack_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Snack/snack_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/images_recepies/Snack/snack_7.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bake.html" afterPath="$PROJECT_DIR$/bake.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Dessert.html" afterPath="$PROJECT_DIR$/dessert.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Hot.html" afterPath="$PROJECT_DIR$/hot.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Snack.html" afterPath="$PROJECT_DIR$/snack.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/4ae3b2440c7d4add18e0053c6e6ea441c82f8a07/stylesheet.scssc" afterPath="$PROJECT_DIR$/.sass-cache/4ae3b2440c7d4add18e0053c6e6ea441c82f8a07/stylesheet.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_1.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_2.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_3.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_4.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_5.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_6.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_7.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bake_recepies/Bake_10.html" afterPath="$PROJECT_DIR$/Bake_recepies/Bake_10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hot_recepies/Hot_1.html" afterPath="$PROJECT_DIR$/Hot_recepies/Hot_1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheets/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/stylesheet.scss" afterPath="$PROJECT_DIR$/sass/stylesheet.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="21)SweetRecipes(new!).iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,21 +69,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hot.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hot.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.980392">
-              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38809833">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.5536869">
+              <caret line="241" column="1" selection-start-line="241" selection-start-column="1" selection-end-line="241" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -67,10 +91,19 @@
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/snack.html" />
-        <option value="$PROJECT_DIR$/hot.html" />
         <option value="$PROJECT_DIR$/bake.html" />
         <option value="$PROJECT_DIR$/dessert.html" />
+        <option value="$PROJECT_DIR$/Hot_recepies/Hot_1.html" />
+        <option value="$PROJECT_DIR$/hot.html" />
+        <option value="$PROJECT_DIR$/advice.html" />
         <option value="$PROJECT_DIR$/sass/stylesheet.scss" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_1.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_7.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_6.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_5.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_4.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_3.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_2.html" />
       </list>
     </option>
   </component>
@@ -109,6 +142,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -127,10 +162,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="21)SweetRecipes(new!)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="21)SweetRecipes(new!)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advice_pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,6 +223,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="1">
@@ -188,6 +241,9 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b6c94970-22a9-4c9a-86fc-32507fcfba2e" name="Default" comment="" />
@@ -198,27 +254,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -228,6 +292,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="52" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="15" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hot_recepies/Hot_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hot_recepies/Hot_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -236,27 +348,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3492885">
-          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -264,7 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72833115">
           <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -272,7 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84476066">
           <caret line="112" column="10" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -280,22 +373,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8059508">
           <caret line="99" column="155" selection-start-line="99" selection-start-column="155" selection-end-line="99" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="477" column="0" selection-start-line="477" selection-start-column="0" selection-end-line="477" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22380336">
+          <caret line="113" column="52" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.980392">
-          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.4954722">
+          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hot_recepies/Hot_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75">
+          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67828417">
+          <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33646113">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69839144">
+          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69839144">
+          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69839144">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69839144">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69839144">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43699732">
+          <caret line="94" column="60" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38809833">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.5536869">
+          <caret line="241" column="1" selection-start-line="241" selection-start-column="1" selection-end-line="241" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -67,463 +67,320 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "Ametist";
   src: url('../fonts/Ametist.ttf') format('truetype');
 }
+/* line 26, ../sass/stylesheet.scss */
+.navbar-default .navbar-nav > li a:hover, .navbar-default .navbar-right .btn-default .search-text:hover {
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  text-decoration: none;
+  color: white;
+}
+
 /* for Bootstrap */
-/* line 6, ../sass/stylesheet.scss */
+/* line 33, ../sass/stylesheet.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 7, ../sass/stylesheet.scss */
+/* line 34, ../sass/stylesheet.scss */
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
 /**/
-/* line 12, ../sass/stylesheet.scss */
+/* line 39, ../sass/stylesheet.scss */
 .left {
   float: left;
 }
 
-/* line 13, ../sass/stylesheet.scss */
+/* line 40, ../sass/stylesheet.scss */
 .right {
   float: right;
 }
 
-/* line 15, ../sass/stylesheet.scss */
+/* line 42, ../sass/stylesheet.scss */
 a:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
-/* line 19, ../sass/stylesheet.scss */
+/* line 47, ../sass/stylesheet.scss */
 body {
   background-image: url(../images/bg4.jpg);
+  background-repeat: repeat;
   background-attachment: scroll;
   background-size: contain;
-  background-repeat: repeat;
 }
 
-/* line 25, ../sass/stylesheet.scss */
+/* line 53, ../sass/stylesheet.scss */
 #index-bg {
   background-image: url(../images/bg1.jpg);
+  background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: 0 0;
-  background-repeat: no-repeat;
 }
 
 /* -------------- INDEX.HTML --------------*/
 /* NAVBAR */
-/* line 35, ../sass/stylesheet.scss */
+/* line 62, ../sass/stylesheet.scss */
 .navbar-default {
   background-color: rgba(255, 255, 255, 0.51);
   margin-top: 30px;
   border: none;
 }
-
-/* line 41, ../sass/stylesheet.scss */
+/* line 66, ../sass/stylesheet.scss */
+.navbar-default .navbar-brand {
+  margin-top: -40px;
+}
+/* line 68, ../sass/stylesheet.scss */
+.navbar-default .navbar-brand img {
+  width: 100px;
+  padding: 0;
+}
+/* line 73, ../sass/stylesheet.scss */
 .navbar-default .navbar-nav > li {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
   background-color: #b2171d;
   font-family: "Ametist", cursive;
   font-size: 18px;
   margin-left: 1px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
 }
-
-/* line 50, ../sass/stylesheet.scss */
-.navbar-default .navbar-nav > li > a {
-  color: #e6e0b7;
+/* line 79, ../sass/stylesheet.scss */
+.navbar-default .navbar-nav > li a {
   -webkit-transition: all ease 1.0s;
   -moz-transition: all ease 1.0s;
+  -o-transition: all ease 1.0s;
   transition: all ease 1.0s;
+  color: #e6e0b7;
 }
-
-/* line 56, ../sass/stylesheet.scss */
-.navbar-default .navbar-nav > li > a:hover {
-  text-decoration: none;
-  color: white;
-  -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s;
-  transition: all ease .5s;
+/* line 88, ../sass/stylesheet.scss */
+.navbar-default .navbar-right .form-control {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
 }
-
-/* line 63, ../sass/stylesheet.scss */
-.navbar-brand {
-  margin-top: -40px;
+/* line 90, ../sass/stylesheet.scss */
+.navbar-default .navbar-right .form-control input {
+  color: #e6e0b7;
 }
-
-/* line 66, ../sass/stylesheet.scss */
-.navbar-brand img {
-  width: 100px;
-  padding: 0;
-}
-
-/* line 70, ../sass/stylesheet.scss */
-.navbar-right .btn-default {
+/* line 94, ../sass/stylesheet.scss */
+.navbar-default .navbar-right .btn-default {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   background-color: #b2171d;
   margin-left: 1px;
   border: none;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
 }
-
-/* line 78, ../sass/stylesheet.scss */
-.navbar-right .btn-default .search-text {
-  font-family: "Ametist", cursive;
+/* line 99, ../sass/stylesheet.scss */
+.navbar-default .navbar-right .btn-default .search-text {
+  -webkit-transition: all ease 1.0s;
+  -moz-transition: all ease 1.0s;
+  -o-transition: all ease 1.0s;
+  transition: all ease 1.0s;
   color: #e6e0b7;
+  font-family: "Ametist", cursive;
   font-size: 14px;
 }
 
-/* line 83, ../sass/stylesheet.scss */
-.navbar-right .btn-default .search-text:hover {
-  transition: all .5s;
-  text-decoration: none;
-  color: white;
-}
-
-/* line 88, ../sass/stylesheet.scss */
-.form-control {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-}
-
-/* line 93, ../sass/stylesheet.scss */
-.form-control input {
-  color: #e6e0b7;
-}
-
 /* GALLERY */
-/* line 98, ../sass/stylesheet.scss */
+/* line 113, ../sass/stylesheet.scss */
 #carousel-container {
   margin-top: 50px;
 }
-
-/* line 101, ../sass/stylesheet.scss */
-.sliders-section {
-  border: 5px dashed #000;
+/* line 115, ../sass/stylesheet.scss */
+#carousel-container .sliders-section {
+  border: 5px dashed #000000;
 }
-
-/* line 104, ../sass/stylesheet.scss */
-#custom_carousel img {
+/* line 119, ../sass/stylesheet.scss */
+#carousel-container #custom_carousel img {
   max-height: 600px;
   background-size: cover;
 }
-
-/* line 109, ../sass/stylesheet.scss */
-#custom_carousel a h1 {
+/* line 123, ../sass/stylesheet.scss */
+#carousel-container #custom_carousel a h1 {
+  -webkit-transition: all ease 1.0s;
+  -moz-transition: all ease 1.0s;
+  -o-transition: all ease 1.0s;
+  transition: all ease 1.0s;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  color: #e6e0b7;
+  border: 1px solid #e6e0b7;
+  font-family: "Ametist", cursive;
+  font-size: 28px;
   position: absolute;
   bottom: 3%;
   right: 2%;
-  font-family: "Ametist", cursive;
-  color: #e6e0b7;
-  font-size: 30px;
   padding: 10px;
   background-color: rgba(178, 23, 29, 0.8);
-  border: 1px solid #e6e0b7;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  -webkit-transition: all ease 1.0s;
-  -moz-transition: all ease 1.0s;
-  transition: all ease 1.0s;
 }
-
-/* line 127, ../sass/stylesheet.scss */
-#custom_carousel a h1:hover {
+/* line 135, ../sass/stylesheet.scss */
+#carousel-container #custom_carousel a h1:hover {
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
   color: white;
-  -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s;
-  transition: all ease .5s;
 }
-
-/* line 133, ../sass/stylesheet.scss */
-#slide-title-1 {
+/* line 140, ../sass/stylesheet.scss */
+#carousel-container #custom_carousel #slide-title-1 {
   -webkit-animation-delay: 0.8s;
 }
-
-/* line 136, ../sass/stylesheet.scss */
-#slide-title-2 {
+/* line 143, ../sass/stylesheet.scss */
+#carousel-container #custom_carousel #slide-title-2 {
   -webkit-animation-delay: 0.8s;
 }
-
-/* line 139, ../sass/stylesheet.scss */
-#slide-title-3 {
-  -webkit-animation-delay: 0.8s;
-}
-
-/* line 142, ../sass/stylesheet.scss */
-#slide-title-4 {
-  -webkit-animation-delay: 0.8s;
-}
-
 /* line 146, ../sass/stylesheet.scss */
-.controls ul li a {
+#carousel-container #custom_carousel #slide-title-3 {
+  -webkit-animation-delay: 0.8s;
+}
+/* line 149, ../sass/stylesheet.scss */
+#carousel-container #custom_carousel #slide-title-4 {
+  -webkit-animation-delay: 0.8s;
+}
+
+/* line 156, ../sass/stylesheet.scss */
+#controls-container .controls ul li a {
   text-align: center;
 }
-
-/* line 149, ../sass/stylesheet.scss */
-.controls img {
+/* line 159, ../sass/stylesheet.scss */
+#controls-container .controls li .active {
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  filter: brightness(100%);
+}
+/* line 163, ../sass/stylesheet.scss */
+#controls-container .controls img {
+  -webkit-transition: all ease 1.0s;
+  -moz-transition: all ease 1.0s;
+  -o-transition: all ease 1.0s;
+  transition: all ease 1.0s;
   margin: 0 auto;
   height: auto;
   max-width: 215px;
   background-size: cover;
   filter: brightness(60%);
-  -webkit-transition: all ease 1.0s;
-  -moz-transition: all ease 1.0s;
-  transition: all ease 1.0s;
 }
-
-/* line 159, ../sass/stylesheet.scss */
-.controls img:hover {
-  cursor: pointer;
+/* line 170, ../sass/stylesheet.scss */
+#controls-container .controls img:hover {
+  -webkit-transition: all ease 0.25s;
+  -moz-transition: all ease 0.25s;
+  -o-transition: all ease 0.25s;
+  transition: all ease 0.25s;
   filter: brightness(100%);
-  -webkit-transition: all ease .25s;
-  -moz-transition: all ease .25s;
-  transition: all ease .25s;
-}
-
-/* line 166, ../sass/stylesheet.scss */
-.controls li .active {
-  filter: brightness(100%);
-  -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s;
-  transition: all ease .5s;
 }
 
 /* -------------- HOT, BAKE, SNACK, DESSERT, ADVICE --------------*/
-/* Content */
-/* line 175, ../sass/stylesheet.scss */
-.content {
+/* Content-section */
+/* line 179, ../sass/stylesheet.scss */
+.recipe-section {
+  margin-bottom: 50px;
+}
+/* line 181, ../sass/stylesheet.scss */
+.recipe-section .content {
   margin-left: 20px;
 }
-
-/* line 178, ../sass/stylesheet.scss */
-.content_text {
+/* line 184, ../sass/stylesheet.scss */
+.recipe-section .content_text {
   background-image: url(../images/content-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px;
   text-align: center;
 }
-
-/* line 185, ../sass/stylesheet.scss */
-.content_text > a {
-  text-decoration: none;
-  color: #68310f;
-  font-family: "Ametist", cursive;
-  font-size: 28px;
+/* line 190, ../sass/stylesheet.scss */
+.recipe-section .content_text a {
   -webkit-transition: all ease 1.0s;
   -moz-transition: all ease 1.0s;
+  -o-transition: all ease 1.0s;
   transition: all ease 1.0s;
-}
-
-/* line 194, ../sass/stylesheet.scss */
-.content_text > a:hover {
+  color: #68310f;
   text-decoration: none;
-  color: #b2171d;
-  -webkit-transition: all ease .25s;
-  -moz-transition: all ease .25s;
-  transition: all ease .25s;
+  font-family: "Ametist", cursive;
+  font-size: 28px;
 }
-
-/* line 201, ../sass/stylesheet.scss */
-.content_text > a > img {
+/* line 196, ../sass/stylesheet.scss */
+.recipe-section .content_text a:hover {
+  -webkit-transition: all ease 0.25s;
+  -moz-transition: all ease 0.25s;
+  -o-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+  color: #b2171d;
+}
+/* line 200, ../sass/stylesheet.scss */
+.recipe-section .content_text a img {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
   border: 1px solid #68310f;
   max-width: 375px;
   height: auto;
   margin-top: 10px;
-  -webkit-border-radius: 20px;
+}
+
+/* Recipes page */
+/* line 212, ../sass/stylesheet.scss */
+.recipe-content {
+  background-image: url(../images/recipe-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 0 165px;
+}
+/* line 218, ../sass/stylesheet.scss */
+.recipe-content .recipe-title {
+  margin-top: 100px;
+}
+/* line 221, ../sass/stylesheet.scss */
+.recipe-content h1 {
+  text-align: center;
+}
+/* line 224, ../sass/stylesheet.scss */
+.recipe-content img {
   -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
   border-radius: 20px;
+  border: 1px solid #68310f;
+  height: auto;
+  max-width: 600px;
+}
+/* line 230, ../sass/stylesheet.scss */
+.recipe-content .recipe_text {
+  text-align: justify;
+  padding: 0 150px;
+  margin-top: 100px;
 }
 
 /* Advice page */
-/* line 212, ../sass/stylesheet.scss */
-#advice-img_1 {
-  width: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-/* line 218, ../sass/stylesheet.scss */
+/* line 239, ../sass/stylesheet.scss */
 .advice-img {
   width: 50px;
   margin-bottom: 20px;
 }
 
-/* line 223, ../sass/stylesheet.scss */
+/* line 243, ../sass/stylesheet.scss */
 .advice_text {
   margin-top: 9px;
   margin-left: -20px;
   text-align: justify;
 }
-
-/* line 229, ../sass/stylesheet.scss */
-.advice_text > a {
-  text-decoration: none;
-  font-family: "Ametist", cursive;
-  font-size: 22px !important;
-  color: black;
-}
-
-/* line 236, ../sass/stylesheet.scss */
-.advice_text > a:hover {
-  text-decoration: none;
-  color: #b2171d;
-}
-
-/* line 241, ../sass/stylesheet.scss */
-.advice_text_1 {
-  margin-top: 27px;
-  margin-left: -20px;
-  text-align: justify;
-}
-
 /* line 247, ../sass/stylesheet.scss */
-.advice_text_1 > a {
+.advice_text a {
+  color: #000000;
   text-decoration: none;
   font-family: "Ametist", cursive;
-  font-size: 22px !important;
-  color: black;
+  font-size: 22px;
 }
-
-/* line 254, ../sass/stylesheet.scss */
-.advice_text_1 > a:hover {
-  text-decoration: none;
+/* line 252, ../sass/stylesheet.scss */
+.advice_text a:hover {
   color: #b2171d;
-}
-
-/* line 259, ../sass/stylesheet.scss */
-.advice_text_2 {
-  font-family: "Jura", "san-serif";
-  margin: 10px 20px 10px 20px;
-  text-align: justify;
-}
-
-/* line 265, ../sass/stylesheet.scss */
-.advice_text_2 > h1 {
-  text-align: center;
-}
-
-/* line 269, ../sass/stylesheet.scss */
-.advice_text_2 > ul > li {
-  font-size: 22px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-/* line 275, ../sass/stylesheet.scss */
-.advice_text_2 > ol > li {
-  font-size: 22px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-/* Recepies page */
-/* line 282, ../sass/stylesheet.scss */
-.recepie_img {
-  border: 1px solid #bdb09d;
-  margin-top: 20px;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  display: inline-block;
-  height: auto;
-  max-width: 100%;
-}
-
-/* line 293, ../sass/stylesheet.scss */
-.ingridients {
-  font-family: "Jura", "san-serif";
-  font-size: 18px;
-}
-
-/* line 298, ../sass/stylesheet.scss */
-.ingridients > ul {
-  margin-top: 15px;
-  margin-bottom: 20px;
-  margin-left: 40px;
-}
-
-/* line 304, ../sass/stylesheet.scss */
-.recepie_text {
-  text-align: justify;
-  font-family: "Jura", "san-serif";
-  margin-top: 15px;
-}
-
-/* line 310, ../sass/stylesheet.scss */
-.recepie_text > h1 {
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-/* line 315, ../sass/stylesheet.scss */
-.recepie_text > ol {
-  font-size: 20px;
-}
-
-/* line 318, ../sass/stylesheet.scss */
-.recepie_text > ul {
-  font-size: 20px;
-}
-
-/* Image resize */
-/* line 323, ../sass/stylesheet.scss */
-.blokimg {
-  position: relative;
-}
-
-/* line 326, ../sass/stylesheet.scss */
-.overlay {
-  display: none;
-  height: auto;
-  position: absolute;
-  right: -26%;
-  width: auto;
-  z-index: 999;
-}
-
-/* line 334, ../sass/stylesheet.scss */
-.overlay .overlay_container {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-/* line 338, ../sass/stylesheet.scss */
-.overlay_container img {
-  padding: 10px;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-}
-
-/* line 344, ../sass/stylesheet.scss */
-.overlay:target {
-  display: table;
-}
-
-/* Share buttons */
-/* line 349, ../sass/stylesheet.scss */
-#share-buttons {
-  margin: 15px 0px 10px 0px;
-}
-
-/* line 353, ../sass/stylesheet.scss */
-#share-buttons img {
-  width: 35px;
-  padding: 5px;
-  border: 0;
-  box-shadow: 0;
-  display: inline-block;
-}
-
-/* line 361, ../sass/stylesheet.scss */
-.search {
-  float: right;
+  text-decoration: none;
 }
