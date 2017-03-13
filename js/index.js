@@ -19,7 +19,13 @@ $(document).ready(function() {
     $('#slide-title-2').toggleClass('animated bounceInLeft');
     $('#slide-title-3').toggleClass('animated bounceInLeft');
     $('#slide-title-4').toggleClass('animated bounceInLeft');
-});
+})
+
+// print button
+function printFunction() {
+    window.print();
+}
+
 
 
 
