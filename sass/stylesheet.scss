@@ -220,8 +220,8 @@ body {
   @include border-radius(20px);
   border: $border-brown;
   background-color: rgba(255, 255, 255, 0.65);
-  margin-top: 80px;
-  margin-bottom: 30px;
+  margin-top: 70px;
+  margin-bottom: 40px;
   padding-bottom: 20px;
     .recipe-title {
       margin-top: 25px;
@@ -241,7 +241,7 @@ body {
           @include border-radius(40px);
           font-family: 'Underdog', cursive;
           margin-top: 25px;
-          margin-bottom: 50px;
+          margin-bottom: 20px;
           padding: 25px;
             .ingredients-title {
               font-size: $font-size-default+4;
@@ -267,6 +267,7 @@ body {
   vertical-align:bottom;
   display:inline-block;
   float: right;
+  margin-top: 16px;
     .print-button {
       @include transition-1s;
       @include border-radius(10px);

@@ -342,8 +342,8 @@ body {
   border-radius: 20px;
   border: 1px solid #68310f;
   background-color: rgba(255, 255, 255, 0.65);
-  margin-top: 80px;
-  margin-bottom: 30px;
+  margin-top: 70px;
+  margin-bottom: 40px;
   padding-bottom: 20px;
 }
 /* line 226, ../sass/stylesheet.scss */
@@ -372,7 +372,7 @@ body {
   border-radius: 40px;
   font-family: 'Underdog', cursive;
   margin-top: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   padding: 25px;
 }
 /* line 246, ../sass/stylesheet.scss */
@@ -402,8 +402,9 @@ body {
   vertical-align: bottom;
   display: inline-block;
   float: right;
+  margin-top: 16px;
 }
-/* line 270, ../sass/stylesheet.scss */
+/* line 271, ../sass/stylesheet.scss */
 .button-section .print-button {
   -webkit-transition: all ease 1.0s;
   -moz-transition: all ease 1.0s;
@@ -417,7 +418,7 @@ body {
   border: 1px solid #68310f;
   padding: 5px 10px;
 }
-/* line 277, ../sass/stylesheet.scss */
+/* line 278, ../sass/stylesheet.scss */
 .button-section .print-button:hover {
   -webkit-transition: all ease 0.4s;
   -moz-transition: all ease 0.4s;
@@ -428,26 +429,26 @@ body {
 }
 
 /* Advice page */
-/* line 286, ../sass/stylesheet.scss */
+/* line 287, ../sass/stylesheet.scss */
 .advice-img {
   width: 50px;
   margin-bottom: 20px;
 }
 
-/* line 290, ../sass/stylesheet.scss */
+/* line 291, ../sass/stylesheet.scss */
 .advice_text {
   margin-top: 9px;
   margin-left: -20px;
   text-align: justify;
 }
-/* line 294, ../sass/stylesheet.scss */
+/* line 295, ../sass/stylesheet.scss */
 .advice_text a {
   color: #000000;
   text-decoration: none;
   font-family: "Ametist", cursive;
   font-size: 22px;
 }
-/* line 299, ../sass/stylesheet.scss */
+/* line 300, ../sass/stylesheet.scss */
 .advice_text a:hover {
   color: #b2171d;
   text-decoration: none;
@@ -455,7 +456,7 @@ body {
 
 /* @media */
 @media only screen and (max-width: 480px) {
-  /* line 308, ../sass/stylesheet.scss */
+  /* line 309, ../sass/stylesheet.scss */
   .recipe-content {
     margin-top: 30px;
     margin-bottom: 20px;
