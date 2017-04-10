@@ -195,11 +195,12 @@ body {
       background-image: url(../images/content-bg.png);
       background-repeat: no-repeat;
       background-size: cover;
-      padding: 80px;
+      padding: 6%;
       text-align: center;
         a {
           @include transition-1s;
           @extend %recipe-title;
+          font-size: $font-size-default+6;
             &:hover {
               @include transition(.25s);
               color: $color-red;
@@ -207,7 +208,7 @@ body {
             & img {
               @include border-radius(20px);
               border: $border-brown;
-              max-width:375px;
+              width: 70%;
               height: auto;
               margin-top: 10px;
             }
@@ -284,30 +285,104 @@ body {
 }
 
 /* Advice page */
-.advice-img {
-  width: 50px;
-  margin-bottom: 20px;
-}
-.advice_text{
-  margin-top: 9px;
-  margin-left: -20px;
-  text-align: justify;
+#advice-page {
+  .advice-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  img {
+    max-width: 50px;
+  }
+  .advice_text{
+    margin-top: 12px;
+    text-align: left;
+  }
   a {
     color: #000000;
     text-decoration: none;
     font-family: $font-Ametist;
     font-size: 22px;
-      &:hover {
-        color: $color-red;
-        text-decoration: none;
-      }
+    &:hover {
+      color: $color-red;
+      text-decoration: none;
+    }
   }
 }
 
 /* @media */
+@include mq($max-width: 991px) {
+  /* NAVBAR */
+  .navbar-default {
+    .navbar-brand {
+      img {
+        width: 90px;
+      }
+    }
+    .navbar-nav > li > a {
+      margin-top: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+}
+@include mq($max-width: 768px) {
+  /* Content-section */
+  .recipe-section {
+    margin-bottom: 20px;
+    .content {
+      margin-left: auto;
+    }
+    .content_text {
+      padding: 10%;
+      a {
+        font-size: $font-size-default+2;
+        & img {
+          height: auto;
+          margin-top: 5px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  /* Recipes page */
+  .recipe-content {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  /* Advice page */
+  #advice-page {
+    img {
+      max-width: 40px;
+    }
+    .advice_text{
+      margin-top: 10px;
+    }
+  }
+}
 @include mq($max-width: 480px) {
+  /* Recipes page */
   .recipe-content {
     margin-top: 30px;
     margin-bottom: 20px;
     }
+  /* Recipes page */
+  .recipe-content {
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
+  /* Advice page */
+  #advice-page {
+    .advice-section {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    img {
+      display: none;
+    }
+    a {
+      font-size: 16px;
+    }
+  }
+}

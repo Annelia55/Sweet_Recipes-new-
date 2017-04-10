@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c94970-22a9-4c9a-86fc-32507fcfba2e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/print-icon.ico" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bake.html" afterPath="$PROJECT_DIR$/bake.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Dessert.html" afterPath="$PROJECT_DIR$/dessert.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Hot.html" afterPath="$PROJECT_DIR$/hot.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Snack.html" afterPath="$PROJECT_DIR$/snack.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/4ae3b2440c7d4add18e0053c6e6ea441c82f8a07/stylesheet.scssc" afterPath="$PROJECT_DIR$/.sass-cache/4ae3b2440c7d4add18e0053c6e6ea441c82f8a07/stylesheet.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bake_recepies/Bake_1.html" afterPath="$PROJECT_DIR$/Bake_recepies/Bake_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bake_recepies/Bake_10.html" afterPath="$PROJECT_DIR$/Bake_recepies/Bake_10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bake_recepies/Bake_2.html" afterPath="$PROJECT_DIR$/Bake_recepies/Bake_2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bake_recepies/Bake_3.html" afterPath="$PROJECT_DIR$/Bake_recepies/Bake_3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bake_recepies/Bake_4.html" afterPath="$PROJECT_DIR$/Bake_recepies/Bake_4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bake_recepies/Bake_5.html" afterPath="$PROJECT_DIR$/Bake_recepies/Bake_5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bake_recepies/Bake_6.html" afterPath="$PROJECT_DIR$/Bake_recepies/Bake_6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bake_recepies/Bake_7.html" afterPath="$PROJECT_DIR$/Bake_recepies/Bake_7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bake_recepies/Bake_8.html" afterPath="$PROJECT_DIR$/Bake_recepies/Bake_8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bake_recepies/Bake_9.html" afterPath="$PROJECT_DIR$/Bake_recepies/Bake_9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dessert_recepies/Dessert_1.html" afterPath="$PROJECT_DIR$/Dessert_recepies/Dessert_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dessert_recepies/Dessert_2.html" afterPath="$PROJECT_DIR$/Dessert_recepies/Dessert_2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dessert_recepies/Dessert_3.html" afterPath="$PROJECT_DIR$/Dessert_recepies/Dessert_3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dessert_recepies/Dessert_4.html" afterPath="$PROJECT_DIR$/Dessert_recepies/Dessert_4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dessert_recepies/Dessert_5.html" afterPath="$PROJECT_DIR$/Dessert_recepies/Dessert_5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dessert_recepies/Dessert_6.html" afterPath="$PROJECT_DIR$/Dessert_recepies/Dessert_6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dessert_recepies/Dessert_7.html" afterPath="$PROJECT_DIR$/Dessert_recepies/Dessert_7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dessert_recepies/Dessert_8.html" afterPath="$PROJECT_DIR$/Dessert_recepies/Dessert_8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hot_recepies/Hot_2.html" afterPath="$PROJECT_DIR$/Hot_recepies/Hot_2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hot_recepies/Hot_3.html" afterPath="$PROJECT_DIR$/Hot_recepies/Hot_3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Snack_recepies/Snack_1.html" afterPath="$PROJECT_DIR$/Snack_recepies/Snack_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Snack_recepies/Snack_2.html" afterPath="$PROJECT_DIR$/Snack_recepies/Snack_2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Snack_recepies/Snack_3.html" afterPath="$PROJECT_DIR$/Snack_recepies/Snack_3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Snack_recepies/Snack_4.html" afterPath="$PROJECT_DIR$/Snack_recepies/Snack_4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Snack_recepies/Snack_5.html" afterPath="$PROJECT_DIR$/Snack_recepies/Snack_5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Snack_recepies/Snack_6.html" afterPath="$PROJECT_DIR$/Snack_recepies/Snack_6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Snack_recepies/Snack_7.html" afterPath="$PROJECT_DIR$/Snack_recepies/Snack_7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheets/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/stylesheet.scss" afterPath="$PROJECT_DIR$/sass/stylesheet.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -54,11 +31,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hot.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hot.html">
+      <file leaf-file-name="advice.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advice.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29366106">
-              <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+            <state vertical-scroll-proportion="-22.208334">
+              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+              <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+              <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
+              <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+              <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+              <caret line="125" column="42" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37904269">
+              <caret line="358" column="17" selection-start-line="358" selection-start-column="17" selection-end-line="358" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -72,8 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hot.html" />
-        <option value="$PROJECT_DIR$/advice.html" />
         <option value="$PROJECT_DIR$/Advice_pages/Advice_1.html" />
         <option value="$PROJECT_DIR$/Advice_pages/Advice_7.html" />
         <option value="$PROJECT_DIR$/Advice_pages/Advice_6.html" />
@@ -81,16 +71,11 @@
         <option value="$PROJECT_DIR$/Advice_pages/Advice_4.html" />
         <option value="$PROJECT_DIR$/Advice_pages/Advice_3.html" />
         <option value="$PROJECT_DIR$/Advice_pages/Advice_2.html" />
-        <option value="$PROJECT_DIR$/snack.html" />
-        <option value="$PROJECT_DIR$/dessert.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/bake.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Hot_recepies/Hot_1.html" />
         <option value="$PROJECT_DIR$/Hot_recepies/Hot_2.html" />
         <option value="$PROJECT_DIR$/Hot_recepies/Hot_3.html" />
-        <option value="$PROJECT_DIR$/sass/stylesheet.scss" />
         <option value="$PROJECT_DIR$/Bake_recepies/Bake_2.html" />
         <option value="$PROJECT_DIR$/Bake_recepies/Bake_3.html" />
         <option value="$PROJECT_DIR$/Bake_recepies/Bake_1.html" />
@@ -116,6 +101,13 @@
         <option value="$PROJECT_DIR$/Dessert_recepies/Dessert_6.html" />
         <option value="$PROJECT_DIR$/Dessert_recepies/Dessert_7.html" />
         <option value="$PROJECT_DIR$/Dessert_recepies/Dessert_8.html" />
+        <option value="$PROJECT_DIR$/hot.html" />
+        <option value="$PROJECT_DIR$/bake.html" />
+        <option value="$PROJECT_DIR$/snack.html" />
+        <option value="$PROJECT_DIR$/dessert.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/advice.html" />
+        <option value="$PROJECT_DIR$/sass/stylesheet.scss" />
       </list>
     </option>
   </component>
@@ -154,7 +146,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,9 +165,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="21)SweetRecipes(new!)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="21)SweetRecipes(new!)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="21)SweetRecipes(new!)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="21)SweetRecipes(new!)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dessert_recepies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,6 +206,7 @@
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -193,8 +214,14 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.advice.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/21)SweetRecipes(new!)/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/21)SweetRecipes(new!)/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="advice.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/21)SweetRecipes(new!)/advice.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -235,12 +262,16 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.advice.html" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.advice.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +296,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -277,6 +307,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -308,7 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -324,7 +354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -340,15 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="477" column="0" selection-start-line="477" selection-start-column="0" selection-end-line="477" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67828417">
-          <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -356,7 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33646113">
           <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -364,7 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69839144">
           <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -372,7 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69839144">
           <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -380,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69839144">
           <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -388,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69839144">
           <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -396,31 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69839144">
           <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43699732">
-          <caret line="94" column="60" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snack.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13065977">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dessert.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2522639">
-          <caret line="104" column="10" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -432,27 +422,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bake.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-42.833332">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.208334">
-          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -460,7 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.481482">
           <caret line="3061" column="19" selection-start-line="3061" selection-start-column="14" selection-end-line="3061" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -468,7 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5265201">
           <caret line="54" column="100" selection-start-line="54" selection-start-column="100" selection-end-line="54" selection-end-column="100" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,15 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52393275">
           <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.534282">
-          <caret line="269" column="16" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -492,7 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9508409">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -500,7 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.99223804">
           <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -508,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22509703">
           <caret line="54" column="102" selection-start-line="54" selection-start-column="102" selection-end-line="54" selection-end-column="102" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,7 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9146184">
           <caret line="90" column="7" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -524,7 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.113842174">
           <caret line="54" column="102" selection-start-line="54" selection-start-column="102" selection-end-line="54" selection-end-column="102" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -532,7 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52393275">
           <caret line="72" column="80" selection-start-line="72" selection-start-column="80" selection-end-line="72" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,7 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.301423">
           <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18499354">
           <caret line="54" column="103" selection-start-line="54" selection-start-column="103" selection-end-line="54" selection-end-column="103" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15523933">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8835705">
           <caret line="106" column="7" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.038809832">
           <caret line="2" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,7 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70892626">
           <caret line="65" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,7 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22380336">
           <caret line="54" column="104" selection-start-line="0" selection-start-column="0" selection-end-line="88" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,7 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8835705">
           <caret line="91" column="7" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41785252">
           <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6313066">
           <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32082793">
           <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,14 +573,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23285899">
           <caret line="12" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47606727">
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8835705">
+          <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65071154">
+          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8835705">
+          <caret line="94" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8835705">
+          <caret line="92" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2160414">
+          <caret line="54" column="108" selection-start-line="54" selection-start-column="108" selection-end-line="54" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bake.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3518758">
+          <caret line="84" column="61" selection-start-line="84" selection-start-column="61" selection-end-line="84" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snack.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5045278">
+          <caret line="66" column="63" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dessert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72833115">
+          <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+          <caret line="65" column="55" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="55" />
+          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+          <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+          <caret line="83" column="55" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
+          <caret line="87" column="55" selection-start-line="87" selection-start-column="55" selection-end-line="87" selection-end-column="55" />
+          <caret line="94" column="55" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="55" />
+          <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.164295">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_1.html">
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-55.625">
-          <caret line="89" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state vertical-scroll-proportion="-23.208334">
+          <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -648,58 +677,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_3.html">
+    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47606727">
-          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.15782665">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_4.html">
+    <entry file="file://$PROJECT_DIR$/advice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8835705">
-          <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+        <state vertical-scroll-proportion="-22.208334">
+          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+          <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+          <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
+          <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+          <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+          <caret line="125" column="42" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_5.html">
+    <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65071154">
-          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8835705">
-          <caret line="94" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8835705">
-          <caret line="92" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2160414">
-          <caret line="54" column="108" selection-start-line="54" selection-start-column="108" selection-end-line="54" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29366106">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.37904269">
+          <caret line="358" column="17" selection-start-line="358" selection-start-column="17" selection-end-line="358" selection-end-column="17" />
           <folding />
         </state>
       </provider>

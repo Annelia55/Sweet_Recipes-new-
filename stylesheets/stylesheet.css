@@ -305,7 +305,7 @@ body {
   background-image: url(../images/content-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 80px;
+  padding: 6%;
   text-align: center;
 }
 /* line 200, ../sass/stylesheet.scss */
@@ -314,8 +314,9 @@ body {
   -moz-transition: all ease 1.0s;
   -o-transition: all ease 1.0s;
   transition: all ease 1.0s;
+  font-size: 20px;
 }
-/* line 203, ../sass/stylesheet.scss */
+/* line 204, ../sass/stylesheet.scss */
 .recipe-section .content_text a:hover {
   -webkit-transition: all ease 0.25s;
   -moz-transition: all ease 0.25s;
@@ -323,19 +324,19 @@ body {
   transition: all ease 0.25s;
   color: #b2171d;
 }
-/* line 207, ../sass/stylesheet.scss */
+/* line 208, ../sass/stylesheet.scss */
 .recipe-section .content_text a img {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
   border: 1px solid #68310f;
-  max-width: 375px;
+  width: 70%;
   height: auto;
   margin-top: 10px;
 }
 
 /* Recipes page */
-/* line 219, ../sass/stylesheet.scss */
+/* line 220, ../sass/stylesheet.scss */
 .recipe-content {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -346,15 +347,15 @@ body {
   margin-bottom: 40px;
   padding-bottom: 20px;
 }
-/* line 226, ../sass/stylesheet.scss */
+/* line 227, ../sass/stylesheet.scss */
 .recipe-content .recipe-title {
   margin-top: 25px;
 }
-/* line 228, ../sass/stylesheet.scss */
+/* line 229, ../sass/stylesheet.scss */
 .recipe-content .recipe-title h1 {
   text-align: center;
 }
-/* line 232, ../sass/stylesheet.scss */
+/* line 233, ../sass/stylesheet.scss */
 .recipe-content .recipe-title img {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -364,7 +365,7 @@ body {
   margin-top: 20px;
   margin-bottom: 16px;
 }
-/* line 239, ../sass/stylesheet.scss */
+/* line 240, ../sass/stylesheet.scss */
 .recipe-content .recipe-title .recipe-ingredients {
   font-size: 16px;
   -moz-border-radius: 40px;
@@ -375,20 +376,20 @@ body {
   margin-bottom: 20px;
   padding: 25px;
 }
-/* line 246, ../sass/stylesheet.scss */
+/* line 247, ../sass/stylesheet.scss */
 .recipe-content .recipe-title .recipe-ingredients .ingredients-title {
   font-size: 18px;
   padding-bottom: 10px;
 }
-/* line 250, ../sass/stylesheet.scss */
+/* line 251, ../sass/stylesheet.scss */
 .recipe-content .recipe-title .recipe-ingredients li {
   line-height: 20px;
 }
-/* line 252, ../sass/stylesheet.scss */
+/* line 253, ../sass/stylesheet.scss */
 .recipe-content .recipe-title .recipe-ingredients li::before {
   content: "✓ ";
 }
-/* line 258, ../sass/stylesheet.scss */
+/* line 259, ../sass/stylesheet.scss */
 .recipe-content .recipe_text {
   font-size: 16px;
   line-height: 20px;
@@ -397,14 +398,14 @@ body {
   padding: 0 20px;
 }
 
-/* line 266, ../sass/stylesheet.scss */
+/* line 267, ../sass/stylesheet.scss */
 .button-section {
   vertical-align: bottom;
   display: inline-block;
   float: right;
   margin-top: 16px;
 }
-/* line 271, ../sass/stylesheet.scss */
+/* line 272, ../sass/stylesheet.scss */
 .button-section .print-button {
   -webkit-transition: all ease 1.0s;
   -moz-transition: all ease 1.0s;
@@ -418,7 +419,7 @@ body {
   border: 1px solid #68310f;
   padding: 5px 10px;
 }
-/* line 278, ../sass/stylesheet.scss */
+/* line 279, ../sass/stylesheet.scss */
 .button-section .print-button:hover {
   -webkit-transition: all ease 0.4s;
   -moz-transition: all ease 0.4s;
@@ -429,36 +430,118 @@ body {
 }
 
 /* Advice page */
-/* line 287, ../sass/stylesheet.scss */
-.advice-img {
-  width: 50px;
+/* line 289, ../sass/stylesheet.scss */
+#advice-page .advice-section {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
-
-/* line 291, ../sass/stylesheet.scss */
-.advice_text {
-  margin-top: 9px;
-  margin-left: -20px;
-  text-align: justify;
+/* line 293, ../sass/stylesheet.scss */
+#advice-page img {
+  max-width: 50px;
 }
-/* line 295, ../sass/stylesheet.scss */
-.advice_text a {
+/* line 296, ../sass/stylesheet.scss */
+#advice-page .advice_text {
+  margin-top: 12px;
+  text-align: left;
+}
+/* line 300, ../sass/stylesheet.scss */
+#advice-page a {
   color: #000000;
   text-decoration: none;
   font-family: "Ametist", cursive;
   font-size: 22px;
 }
-/* line 300, ../sass/stylesheet.scss */
-.advice_text a:hover {
+/* line 305, ../sass/stylesheet.scss */
+#advice-page a:hover {
   color: #b2171d;
   text-decoration: none;
 }
 
 /* @media */
-@media only screen and (max-width: 480px) {
-  /* line 309, ../sass/stylesheet.scss */
+@media only screen and (max-width: 991px) {
+  /* NAVBAR */
+  /* line 317, ../sass/stylesheet.scss */
+  .navbar-default .navbar-brand img {
+    width: 90px;
+  }
+  /* line 321, ../sass/stylesheet.scss */
+  .navbar-default .navbar-nav > li > a {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* Content-section */
+  /* line 332, ../sass/stylesheet.scss */
+  .recipe-section {
+    margin-bottom: 20px;
+  }
+  /* line 334, ../sass/stylesheet.scss */
+  .recipe-section .content {
+    margin-left: auto;
+  }
+  /* line 337, ../sass/stylesheet.scss */
+  .recipe-section .content_text {
+    padding: 10%;
+  }
+  /* line 339, ../sass/stylesheet.scss */
+  .recipe-section .content_text a {
+    font-size: 16px;
+  }
+  /* line 341, ../sass/stylesheet.scss */
+  .recipe-section .content_text a img {
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  /* Recipes page */
+  /* line 350, ../sass/stylesheet.scss */
   .recipe-content {
     margin-top: 30px;
     margin-bottom: 20px;
+  }
+
+  /* Advice page */
+  /* line 356, ../sass/stylesheet.scss */
+  #advice-page img {
+    max-width: 40px;
+  }
+  /* line 359, ../sass/stylesheet.scss */
+  #advice-page .advice_text {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* Recipes page */
+  /* line 366, ../sass/stylesheet.scss */
+  .recipe-content {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  /* Recipes page */
+  /* line 371, ../sass/stylesheet.scss */
+  .recipe-content {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  /* Advice page */
+  /* line 377, ../sass/stylesheet.scss */
+  #advice-page .advice-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* line 381, ../sass/stylesheet.scss */
+  #advice-page img {
+    display: none;
+  }
+  /* line 384, ../sass/stylesheet.scss */
+  #advice-page a {
+    font-size: 16px;
   }
 }
