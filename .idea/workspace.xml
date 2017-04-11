@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c94970-22a9-4c9a-86fc-32507fcfba2e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/4ae3b2440c7d4add18e0053c6e6ea441c82f8a07/stylesheet.scssc" afterPath="$PROJECT_DIR$/.sass-cache/4ae3b2440c7d4add18e0053c6e6ea441c82f8a07/stylesheet.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_1.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_2.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_3.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_3.html" />
@@ -10,8 +9,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_5.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_6.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_6.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_7.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheets/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/stylesheet.scss" afterPath="$PROJECT_DIR$/sass/stylesheet.scss" />
     </list>
     <ignored path="21)SweetRecipes(new!).iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +32,7 @@
       <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0588236">
+            <state vertical-scroll-proportion="-5.470588">
               <caret line="327" column="23" selection-start-line="327" selection-start-column="23" selection-end-line="327" selection-end-column="23" />
               <folding />
             </state>
@@ -45,8 +42,8 @@
       <file leaf-file-name="Advice_6.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25603217">
-              <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.5148771">
+              <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,14 +93,14 @@
         <option value="$PROJECT_DIR$/dessert.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/advice.html" />
+        <option value="$PROJECT_DIR$/sass/stylesheet.scss" />
         <option value="$PROJECT_DIR$/Advice_pages/Advice_1.html" />
         <option value="$PROJECT_DIR$/Advice_pages/Advice_2.html" />
-        <option value="$PROJECT_DIR$/Advice_pages/Advice_3.html" />
-        <option value="$PROJECT_DIR$/Advice_pages/Advice_4.html" />
-        <option value="$PROJECT_DIR$/Advice_pages/Advice_5.html" />
-        <option value="$PROJECT_DIR$/sass/stylesheet.scss" />
-        <option value="$PROJECT_DIR$/Advice_pages/Advice_6.html" />
         <option value="$PROJECT_DIR$/Advice_pages/Advice_7.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_5.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_4.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_3.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_6.html" />
       </list>
     </option>
   </component>
@@ -172,6 +169,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="21)SweetRecipes(new!)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="21)SweetRecipes(new!)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bake_recepies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,32 +650,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bake_recepies/Bake_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.375">
-          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.82535577">
+          <caret line="109" column="46" selection-start-line="99" selection-start-column="8" selection-end-line="109" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.583334">
-          <caret line="103" column="14" selection-start-line="58" selection-start-column="4" selection-end-line="103" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.84476066">
+          <caret line="110" column="42" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_2.html">
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8641656">
-          <caret line="94" column="10" selection-start-line="57" selection-start-column="4" selection-end-line="94" selection-end-column="10" />
+        <state vertical-scroll-proportion="-31.958334">
+          <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_3.html">
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72833115">
-          <caret line="83" column="73" selection-start-line="83" selection-start-column="73" selection-end-line="83" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.84476066">
+          <caret line="127" column="42" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -672,39 +683,39 @@
     <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84476066">
-          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+          <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_5.html">
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3324397">
-          <caret line="61" column="39" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.84476066">
+          <caret line="95" column="42" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84476066">
+          <caret line="100" column="42" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0588236">
+        <state vertical-scroll-proportion="-5.470588">
           <caret line="327" column="23" selection-start-line="327" selection-start-column="23" selection-end-line="327" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6119017">
-          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25603217">
-          <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.5148771">
+          <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
           <folding />
         </state>
       </provider>
