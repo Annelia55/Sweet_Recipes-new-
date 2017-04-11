@@ -429,7 +429,7 @@ body {
   color: #e6e0b7;
 }
 
-/* Advice page */
+/* Advice section */
 /* line 289, ../sass/stylesheet.scss */
 #advice-page .advice-section {
   margin-top: 20px;
@@ -457,14 +457,52 @@ body {
   text-decoration: none;
 }
 
+/* Advice page */
+/* line 313, ../sass/stylesheet.scss */
+#advice-page {
+  font-family: "Ametist", cursive;
+  font-size: 18px;
+  line-height: 24px;
+}
+/* line 317, ../sass/stylesheet.scss */
+#advice-page p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+/* line 321, ../sass/stylesheet.scss */
+#advice-page p::before {
+  content: "✓ ";
+}
+/* line 325, ../sass/stylesheet.scss */
+#advice-page .advice-content {
+  padding: 0 20px;
+}
+/* line 327, ../sass/stylesheet.scss */
+#advice-page .advice-content h2 {
+  margin-top: 30px;
+}
+/* line 332, ../sass/stylesheet.scss */
+#advice-page .advices-list li {
+  margin-bottom: 20px;
+}
+/* line 334, ../sass/stylesheet.scss */
+#advice-page .advices-list li::before {
+  content: "✓ ";
+}
+/* line 337, ../sass/stylesheet.scss */
+#advice-page .advices-list li:first-child {
+  margin-top: 30px;
+}
+
 /* @media */
 @media only screen and (max-width: 991px) {
   /* NAVBAR */
-  /* line 317, ../sass/stylesheet.scss */
+  /* line 349, ../sass/stylesheet.scss */
   .navbar-default .navbar-brand img {
     width: 90px;
   }
-  /* line 321, ../sass/stylesheet.scss */
+  /* line 353, ../sass/stylesheet.scss */
   .navbar-default .navbar-nav > li > a {
     margin-top: 5px;
     padding-top: 10px;
@@ -475,23 +513,23 @@ body {
 }
 @media only screen and (max-width: 768px) {
   /* Content-section */
-  /* line 332, ../sass/stylesheet.scss */
+  /* line 364, ../sass/stylesheet.scss */
   .recipe-section {
     margin-bottom: 20px;
   }
-  /* line 334, ../sass/stylesheet.scss */
+  /* line 366, ../sass/stylesheet.scss */
   .recipe-section .content {
     margin-left: auto;
   }
-  /* line 337, ../sass/stylesheet.scss */
+  /* line 369, ../sass/stylesheet.scss */
   .recipe-section .content_text {
     padding: 10%;
   }
-  /* line 339, ../sass/stylesheet.scss */
+  /* line 371, ../sass/stylesheet.scss */
   .recipe-section .content_text a {
     font-size: 16px;
   }
-  /* line 341, ../sass/stylesheet.scss */
+  /* line 373, ../sass/stylesheet.scss */
   .recipe-section .content_text a img {
     height: auto;
     margin-top: 5px;
@@ -499,48 +537,48 @@ body {
   }
 
   /* Recipes page */
-  /* line 350, ../sass/stylesheet.scss */
+  /* line 382, ../sass/stylesheet.scss */
   .recipe-content {
     margin-top: 30px;
     margin-bottom: 20px;
   }
 
   /* Advice page */
-  /* line 356, ../sass/stylesheet.scss */
+  /* line 388, ../sass/stylesheet.scss */
   #advice-page img {
     max-width: 40px;
   }
-  /* line 359, ../sass/stylesheet.scss */
+  /* line 391, ../sass/stylesheet.scss */
   #advice-page .advice_text {
     margin-top: 10px;
   }
 }
 @media only screen and (max-width: 480px) {
   /* Recipes page */
-  /* line 366, ../sass/stylesheet.scss */
+  /* line 398, ../sass/stylesheet.scss */
   .recipe-content {
     margin-top: 30px;
     margin-bottom: 20px;
   }
 
   /* Recipes page */
-  /* line 371, ../sass/stylesheet.scss */
+  /* line 403, ../sass/stylesheet.scss */
   .recipe-content {
     margin-top: 30px;
     margin-bottom: 20px;
   }
 
   /* Advice page */
-  /* line 377, ../sass/stylesheet.scss */
+  /* line 409, ../sass/stylesheet.scss */
   #advice-page .advice-section {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  /* line 381, ../sass/stylesheet.scss */
+  /* line 413, ../sass/stylesheet.scss */
   #advice-page img {
     display: none;
   }
-  /* line 384, ../sass/stylesheet.scss */
+  /* line 416, ../sass/stylesheet.scss */
   #advice-page a {
     font-size: 16px;
   }

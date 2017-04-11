@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c94970-22a9-4c9a-86fc-32507fcfba2e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Bake.html" afterPath="$PROJECT_DIR$/bake.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Dessert.html" afterPath="$PROJECT_DIR$/dessert.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Hot.html" afterPath="$PROJECT_DIR$/hot.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Snack.html" afterPath="$PROJECT_DIR$/snack.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/4ae3b2440c7d4add18e0053c6e6ea441c82f8a07/stylesheet.scssc" afterPath="$PROJECT_DIR$/.sass-cache/4ae3b2440c7d4add18e0053c6e6ea441c82f8a07/stylesheet.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_1.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_2.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_3.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_4.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_5.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_6.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advice_pages/Advice_7.html" afterPath="$PROJECT_DIR$/Advice_pages/Advice_7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheets/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/stylesheet.scss" afterPath="$PROJECT_DIR$/sass/stylesheet.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="21)SweetRecipes(new!).iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,26 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="advice.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advice.html">
+      <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.208334">
-              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
-              <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
-              <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
-              <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
-              <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
-              <caret line="125" column="42" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
+            <state vertical-scroll-proportion="-6.0588236">
+              <caret line="327" column="23" selection-start-line="327" selection-start-column="23" selection-end-line="327" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
+      <file leaf-file-name="Advice_6.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37904269">
-              <caret line="358" column="17" selection-start-line="358" selection-start-column="17" selection-end-line="358" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.25603217">
+              <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -64,13 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Advice_pages/Advice_1.html" />
-        <option value="$PROJECT_DIR$/Advice_pages/Advice_7.html" />
-        <option value="$PROJECT_DIR$/Advice_pages/Advice_6.html" />
-        <option value="$PROJECT_DIR$/Advice_pages/Advice_5.html" />
-        <option value="$PROJECT_DIR$/Advice_pages/Advice_4.html" />
-        <option value="$PROJECT_DIR$/Advice_pages/Advice_3.html" />
-        <option value="$PROJECT_DIR$/Advice_pages/Advice_2.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/Hot_recepies/Hot_1.html" />
@@ -107,7 +96,14 @@
         <option value="$PROJECT_DIR$/dessert.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/advice.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_1.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_2.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_3.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_4.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_5.html" />
         <option value="$PROJECT_DIR$/sass/stylesheet.scss" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_6.html" />
+        <option value="$PROJECT_DIR$/Advice_pages/Advice_7.html" />
       </list>
     </option>
   </component>
@@ -189,7 +185,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dessert_recepies" />
+              <option name="myItemId" value="Advice_pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,48 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33646113">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69839144">
-          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69839144">
-          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69839144">
-          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69839144">
-          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69839144">
-          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16962843">
@@ -503,13 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18499354">
           <caret line="54" column="103" selection-start-line="54" selection-start-column="103" selection-end-line="54" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bake_recepies/Bake_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15523933">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -661,14 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.208334">
-          <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dessert_recepies/Dessert_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8641656">
@@ -687,7 +626,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.208334">
+        <state vertical-scroll-proportion="0.6895214">
           <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
           <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
           <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
@@ -698,10 +637,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Bake_recepies/Bake_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.375">
+          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.583334">
+          <caret line="103" column="14" selection-start-line="58" selection-start-column="4" selection-end-line="103" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8641656">
+          <caret line="94" column="10" selection-start-line="57" selection-start-column="4" selection-end-line="94" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72833115">
+          <caret line="83" column="73" selection-start-line="83" selection-start-column="73" selection-end-line="83" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84476066">
+          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3324397">
+          <caret line="61" column="39" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/stylesheet.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37904269">
-          <caret line="358" column="17" selection-start-line="358" selection-start-column="17" selection-end-line="358" selection-end-column="17" />
+        <state vertical-scroll-proportion="-6.0588236">
+          <caret line="327" column="23" selection-start-line="327" selection-start-column="23" selection-end-line="327" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6119017">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advice_pages/Advice_6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25603217">
+          <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
           <folding />
         </state>
       </provider>
