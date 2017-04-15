@@ -359,6 +359,19 @@ body {
     }
   }
 }
+@include mq($max-width: 796px) {
+  /* NAVBAR */
+  .navbar-default {
+    .navbar-right {
+      .form-group {
+        max-width: 140px;
+      }
+      .form-control {
+        padding: 2px 2px;
+      }
+    }
+  }
+}
 @include mq($max-width: 768px) {
   /* Content-section */
   .recipe-section {

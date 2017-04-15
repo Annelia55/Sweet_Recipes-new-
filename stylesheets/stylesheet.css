@@ -511,25 +511,36 @@ body {
     padding-right: 5px;
   }
 }
+@media only screen and (max-width: 796px) {
+  /* NAVBAR */
+  /* line 366, ../sass/stylesheet.scss */
+  .navbar-default .navbar-right .form-group {
+    max-width: 140px;
+  }
+  /* line 369, ../sass/stylesheet.scss */
+  .navbar-default .navbar-right .form-control {
+    padding: 2px 2px;
+  }
+}
 @media only screen and (max-width: 768px) {
   /* Content-section */
-  /* line 364, ../sass/stylesheet.scss */
+  /* line 377, ../sass/stylesheet.scss */
   .recipe-section {
     margin-bottom: 20px;
   }
-  /* line 366, ../sass/stylesheet.scss */
+  /* line 379, ../sass/stylesheet.scss */
   .recipe-section .content {
     margin-left: auto;
   }
-  /* line 369, ../sass/stylesheet.scss */
+  /* line 382, ../sass/stylesheet.scss */
   .recipe-section .content_text {
     padding: 10%;
   }
-  /* line 371, ../sass/stylesheet.scss */
+  /* line 384, ../sass/stylesheet.scss */
   .recipe-section .content_text a {
     font-size: 16px;
   }
-  /* line 373, ../sass/stylesheet.scss */
+  /* line 386, ../sass/stylesheet.scss */
   .recipe-section .content_text a img {
     height: auto;
     margin-top: 5px;
@@ -537,48 +548,48 @@ body {
   }
 
   /* Recipes page */
-  /* line 382, ../sass/stylesheet.scss */
+  /* line 395, ../sass/stylesheet.scss */
   .recipe-content {
     margin-top: 30px;
     margin-bottom: 20px;
   }
 
   /* Advice page */
-  /* line 388, ../sass/stylesheet.scss */
+  /* line 401, ../sass/stylesheet.scss */
   #advice-page img {
     max-width: 40px;
   }
-  /* line 391, ../sass/stylesheet.scss */
+  /* line 404, ../sass/stylesheet.scss */
   #advice-page .advice_text {
     margin-top: 10px;
   }
 }
 @media only screen and (max-width: 480px) {
   /* Recipes page */
-  /* line 398, ../sass/stylesheet.scss */
+  /* line 411, ../sass/stylesheet.scss */
   .recipe-content {
     margin-top: 30px;
     margin-bottom: 20px;
   }
 
   /* Recipes page */
-  /* line 403, ../sass/stylesheet.scss */
+  /* line 416, ../sass/stylesheet.scss */
   .recipe-content {
     margin-top: 30px;
     margin-bottom: 20px;
   }
 
   /* Advice page */
-  /* line 409, ../sass/stylesheet.scss */
+  /* line 422, ../sass/stylesheet.scss */
   #advice-page .advice-section {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  /* line 413, ../sass/stylesheet.scss */
+  /* line 426, ../sass/stylesheet.scss */
   #advice-page img {
     display: none;
   }
-  /* line 416, ../sass/stylesheet.scss */
+  /* line 429, ../sass/stylesheet.scss */
   #advice-page a {
     font-size: 16px;
   }
