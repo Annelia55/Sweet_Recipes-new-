@@ -277,7 +277,7 @@ body {
   transition: all ease 1.0s;
   margin: 0 auto;
   height: auto;
-  max-width: 215px;
+  max-width: 105%;
   background-size: cover;
   filter: brightness(60%);
 }
@@ -290,17 +290,31 @@ body {
   filter: brightness(100%);
 }
 
+/* line 187, ../sass/stylesheet.scss */
+.main-page-desc {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background-color: #b2171d;
+  font-family: "Ametist", cursive;
+  font-size: 22px;
+  text-align: center;
+  color: #e6e0b7;
+  padding: 30px 16px;
+  margin-top: 40px;
+}
+
 /* -------------- HOT, BAKE, SNACK, DESSERT, ADVICE --------------*/
 /* Content-section */
-/* line 189, ../sass/stylesheet.scss */
+/* line 199, ../sass/stylesheet.scss */
 .recipe-section {
   margin-bottom: 50px;
 }
-/* line 191, ../sass/stylesheet.scss */
+/* line 201, ../sass/stylesheet.scss */
 .recipe-section .content {
   margin-left: 20px;
 }
-/* line 194, ../sass/stylesheet.scss */
+/* line 204, ../sass/stylesheet.scss */
 .recipe-section .content_text {
   background-image: url(../images/content-bg.png);
   background-repeat: no-repeat;
@@ -308,7 +322,7 @@ body {
   padding: 6%;
   text-align: center;
 }
-/* line 200, ../sass/stylesheet.scss */
+/* line 210, ../sass/stylesheet.scss */
 .recipe-section .content_text a {
   -webkit-transition: all ease 1.0s;
   -moz-transition: all ease 1.0s;
@@ -316,7 +330,7 @@ body {
   transition: all ease 1.0s;
   font-size: 20px;
 }
-/* line 204, ../sass/stylesheet.scss */
+/* line 214, ../sass/stylesheet.scss */
 .recipe-section .content_text a:hover {
   -webkit-transition: all ease 0.25s;
   -moz-transition: all ease 0.25s;
@@ -324,7 +338,7 @@ body {
   transition: all ease 0.25s;
   color: #b2171d;
 }
-/* line 208, ../sass/stylesheet.scss */
+/* line 218, ../sass/stylesheet.scss */
 .recipe-section .content_text a img {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -336,7 +350,7 @@ body {
 }
 
 /* Recipes page */
-/* line 220, ../sass/stylesheet.scss */
+/* line 230, ../sass/stylesheet.scss */
 .recipe-content {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -347,15 +361,15 @@ body {
   margin-bottom: 40px;
   padding-bottom: 20px;
 }
-/* line 227, ../sass/stylesheet.scss */
+/* line 237, ../sass/stylesheet.scss */
 .recipe-content .recipe-title {
   margin-top: 25px;
 }
-/* line 229, ../sass/stylesheet.scss */
+/* line 239, ../sass/stylesheet.scss */
 .recipe-content .recipe-title h1 {
   text-align: center;
 }
-/* line 233, ../sass/stylesheet.scss */
+/* line 243, ../sass/stylesheet.scss */
 .recipe-content .recipe-title img {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -365,7 +379,7 @@ body {
   margin-top: 20px;
   margin-bottom: 16px;
 }
-/* line 240, ../sass/stylesheet.scss */
+/* line 250, ../sass/stylesheet.scss */
 .recipe-content .recipe-title .recipe-ingredients {
   font-size: 16px;
   -moz-border-radius: 40px;
@@ -376,20 +390,20 @@ body {
   margin-bottom: 20px;
   padding: 25px;
 }
-/* line 247, ../sass/stylesheet.scss */
+/* line 257, ../sass/stylesheet.scss */
 .recipe-content .recipe-title .recipe-ingredients .ingredients-title {
   font-size: 18px;
   padding-bottom: 10px;
 }
-/* line 251, ../sass/stylesheet.scss */
+/* line 261, ../sass/stylesheet.scss */
 .recipe-content .recipe-title .recipe-ingredients li {
   line-height: 20px;
 }
-/* line 253, ../sass/stylesheet.scss */
+/* line 263, ../sass/stylesheet.scss */
 .recipe-content .recipe-title .recipe-ingredients li::before {
   content: "✓ ";
 }
-/* line 259, ../sass/stylesheet.scss */
+/* line 269, ../sass/stylesheet.scss */
 .recipe-content .recipe_text {
   font-size: 16px;
   line-height: 20px;
@@ -398,14 +412,14 @@ body {
   padding: 0 20px;
 }
 
-/* line 267, ../sass/stylesheet.scss */
+/* line 277, ../sass/stylesheet.scss */
 .button-section {
   vertical-align: bottom;
   display: inline-block;
   float: right;
   margin-top: 16px;
 }
-/* line 272, ../sass/stylesheet.scss */
+/* line 282, ../sass/stylesheet.scss */
 .button-section .print-button {
   -webkit-transition: all ease 1.0s;
   -moz-transition: all ease 1.0s;
@@ -419,7 +433,7 @@ body {
   border: 1px solid #68310f;
   padding: 5px 10px;
 }
-/* line 279, ../sass/stylesheet.scss */
+/* line 289, ../sass/stylesheet.scss */
 .button-section .print-button:hover {
   -webkit-transition: all ease 0.4s;
   -moz-transition: all ease 0.4s;
@@ -430,79 +444,86 @@ body {
 }
 
 /* Advice section */
-/* line 289, ../sass/stylesheet.scss */
+/* line 299, ../sass/stylesheet.scss */
 #advice-page .advice-section {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 293, ../sass/stylesheet.scss */
+/* line 303, ../sass/stylesheet.scss */
 #advice-page img {
   max-width: 50px;
 }
-/* line 296, ../sass/stylesheet.scss */
+/* line 306, ../sass/stylesheet.scss */
 #advice-page .advice_text {
   margin-top: 12px;
   text-align: left;
 }
-/* line 300, ../sass/stylesheet.scss */
+/* line 310, ../sass/stylesheet.scss */
 #advice-page a {
   color: #000000;
   text-decoration: none;
   font-family: "Ametist", cursive;
   font-size: 22px;
 }
-/* line 305, ../sass/stylesheet.scss */
+/* line 315, ../sass/stylesheet.scss */
 #advice-page a:hover {
   color: #b2171d;
   text-decoration: none;
 }
 
 /* Advice page */
-/* line 313, ../sass/stylesheet.scss */
+/* line 323, ../sass/stylesheet.scss */
 #advice-page {
   font-family: "Ametist", cursive;
   font-size: 18px;
   line-height: 24px;
 }
-/* line 317, ../sass/stylesheet.scss */
+/* line 327, ../sass/stylesheet.scss */
 #advice-page p {
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
-/* line 321, ../sass/stylesheet.scss */
+/* line 331, ../sass/stylesheet.scss */
 #advice-page p::before {
   content: "✓ ";
 }
-/* line 325, ../sass/stylesheet.scss */
+/* line 335, ../sass/stylesheet.scss */
 #advice-page .advice-content {
   padding: 0 20px;
 }
-/* line 327, ../sass/stylesheet.scss */
+/* line 337, ../sass/stylesheet.scss */
 #advice-page .advice-content h2 {
   margin-top: 30px;
 }
-/* line 332, ../sass/stylesheet.scss */
+/* line 342, ../sass/stylesheet.scss */
 #advice-page .advices-list li {
   margin-bottom: 20px;
 }
-/* line 334, ../sass/stylesheet.scss */
+/* line 344, ../sass/stylesheet.scss */
 #advice-page .advices-list li::before {
   content: "✓ ";
 }
-/* line 337, ../sass/stylesheet.scss */
+/* line 347, ../sass/stylesheet.scss */
 #advice-page .advices-list li:first-child {
   margin-top: 30px;
 }
 
 /* @media */
+@media only screen and (max-width: 1200px) {
+  /* GALLERY */
+  /* line 359, ../sass/stylesheet.scss */
+  #controls-container .controls img {
+    max-width: 110%;
+  }
+}
 @media only screen and (max-width: 991px) {
   /* NAVBAR */
-  /* line 349, ../sass/stylesheet.scss */
+  /* line 370, ../sass/stylesheet.scss */
   .navbar-default .navbar-brand img {
     width: 90px;
   }
-  /* line 353, ../sass/stylesheet.scss */
+  /* line 374, ../sass/stylesheet.scss */
   .navbar-default .navbar-nav > li > a {
     margin-top: 5px;
     padding-top: 10px;
@@ -510,37 +531,68 @@ body {
     padding-left: 5px;
     padding-right: 5px;
   }
+
+  /* GALLERY */
+  /* line 385, ../sass/stylesheet.scss */
+  #controls-container .controls ul {
+    text-align: center;
+  }
+  /* line 387, ../sass/stylesheet.scss */
+  #controls-container .controls ul li {
+    display: inline;
+  }
+  /* line 391, ../sass/stylesheet.scss */
+  #controls-container .controls img {
+    display: inline;
+    max-width: 23%;
+    margin: 0px;
+  }
 }
 @media only screen and (max-width: 796px) {
   /* NAVBAR */
-  /* line 366, ../sass/stylesheet.scss */
+  /* line 403, ../sass/stylesheet.scss */
   .navbar-default .navbar-right .form-group {
     max-width: 140px;
   }
-  /* line 369, ../sass/stylesheet.scss */
+  /* line 406, ../sass/stylesheet.scss */
   .navbar-default .navbar-right .form-control {
     padding: 2px 2px;
   }
 }
 @media only screen and (max-width: 768px) {
+  /* GALLERY */
+  /* line 414, ../sass/stylesheet.scss */
+  #carousel-container {
+    margin-top: 50px;
+  }
+  /* line 416, ../sass/stylesheet.scss */
+  #carousel-container .sliders-section {
+    border: 5px solid #000000;
+  }
+  /* line 420, ../sass/stylesheet.scss */
+  #carousel-container #custom_carousel a h1 {
+    font-size: 18px;
+    padding: 10px;
+  }
+
   /* Content-section */
-  /* line 377, ../sass/stylesheet.scss */
+  /* line 427, ../sass/stylesheet.scss */
   .recipe-section {
     margin-bottom: 20px;
   }
-  /* line 379, ../sass/stylesheet.scss */
+  /* line 429, ../sass/stylesheet.scss */
   .recipe-section .content {
     margin-left: auto;
   }
-  /* line 382, ../sass/stylesheet.scss */
+  /* line 432, ../sass/stylesheet.scss */
   .recipe-section .content_text {
     padding: 10%;
   }
-  /* line 384, ../sass/stylesheet.scss */
+  /* line 434, ../sass/stylesheet.scss */
   .recipe-section .content_text a {
     font-size: 16px;
   }
-  /* line 386, ../sass/stylesheet.scss */
+  /* line 436, ../sass/stylesheet.scss */
   .recipe-section .content_text a img {
     height: auto;
     margin-top: 5px;
@@ -548,48 +600,60 @@ body {
   }
 
   /* Recipes page */
-  /* line 395, ../sass/stylesheet.scss */
+  /* line 445, ../sass/stylesheet.scss */
   .recipe-content {
     margin-top: 30px;
     margin-bottom: 20px;
   }
 
   /* Advice page */
-  /* line 401, ../sass/stylesheet.scss */
+  /* line 451, ../sass/stylesheet.scss */
   #advice-page img {
     max-width: 40px;
   }
-  /* line 404, ../sass/stylesheet.scss */
+  /* line 454, ../sass/stylesheet.scss */
   #advice-page .advice_text {
     margin-top: 10px;
   }
 }
 @media only screen and (max-width: 480px) {
+  /* GALLERY */
+  /* line 463, ../sass/stylesheet.scss */
+  #carousel-container #custom_carousel a h1 {
+    font-size: 15px;
+    padding: 7px;
+  }
+
+  /* line 469, ../sass/stylesheet.scss */
+  .main-page-desc {
+    font-size: 18px;
+  }
+
   /* Recipes page */
-  /* line 411, ../sass/stylesheet.scss */
+  /* line 473, ../sass/stylesheet.scss */
   .recipe-content {
     margin-top: 30px;
     margin-bottom: 20px;
   }
 
   /* Recipes page */
-  /* line 416, ../sass/stylesheet.scss */
+  /* line 478, ../sass/stylesheet.scss */
   .recipe-content {
     margin-top: 30px;
     margin-bottom: 20px;
   }
 
   /* Advice page */
-  /* line 422, ../sass/stylesheet.scss */
+  /* line 484, ../sass/stylesheet.scss */
   #advice-page .advice-section {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  /* line 426, ../sass/stylesheet.scss */
+  /* line 488, ../sass/stylesheet.scss */
   #advice-page img {
     display: none;
   }
-  /* line 429, ../sass/stylesheet.scss */
+  /* line 491, ../sass/stylesheet.scss */
   #advice-page a {
     font-size: 16px;
   }

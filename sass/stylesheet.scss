@@ -174,7 +174,7 @@ body {
       @include transition-1s;
       margin: 0 auto;
       height: auto;
-      max-width: 215px;
+      max-width: 105%;
       background-size: cover;
       filter: brightness(60%);
         &:hover {
@@ -183,6 +183,16 @@ body {
         }
     }
   }
+}
+.main-page-desc {
+  @include border-radius(15px);
+  background-color: $color-red;
+  font-family: $font-Ametist;
+  font-size: $font-size-default+8;
+  text-align: center;
+  color: $color-gold;
+  padding: 30px 16px;
+  margin-top: 40px;
 }
 /* -------------- HOT, BAKE, SNACK, DESSERT, ADVICE --------------*/
 /* Content-section */
@@ -342,6 +352,17 @@ body {
 }
 
 /* @media */
+@include mq($max-width: 1200px) {
+  /* GALLERY */
+  #controls-container {
+    .controls{
+      img {
+        max-width: 110%;
+      }
+    }
+  }
+}
+
 @include mq($max-width: 991px) {
   /* NAVBAR */
   .navbar-default {
@@ -356,6 +377,22 @@ body {
       padding-bottom: 10px;
       padding-left: 5px;
       padding-right: 5px;
+    }
+  }
+  /* GALLERY */
+  #controls-container {
+    .controls {
+      ul {
+        text-align: center;
+        li {
+          display: inline;
+        }
+      }
+      img {
+        display: inline;
+        max-width: 23%;
+        margin: 0px;
+      }
     }
   }
 }
@@ -373,6 +410,19 @@ body {
   }
 }
 @include mq($max-width: 768px) {
+  /* GALLERY */
+  #carousel-container {
+    margin-top: 50px;
+    .sliders-section {
+      border: 5px solid #000000;
+    }
+    #custom_carousel {
+      a h1 {
+        font-size: $font-size-default+4;
+        padding: 10px;
+      }
+    }
+  }
   /* Content-section */
   .recipe-section {
     margin-bottom: 20px;
@@ -407,6 +457,18 @@ body {
   }
 }
 @include mq($max-width: 480px) {
+  /* GALLERY */
+  #carousel-container {
+    #custom_carousel {
+      a h1 {
+        font-size: $font-size-default+1;
+        padding: 7px;
+      }
+    }
+  }
+  .main-page-desc {
+    font-size: $font-size-default+4;
+  }
   /* Recipes page */
   .recipe-content {
     margin-top: 30px;
