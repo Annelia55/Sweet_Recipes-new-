@@ -118,6 +118,19 @@ body {
       }
     }
   }
+.navbar-default {
+  .navbar-toggle:hover,
+  .navbar-toggle:focus {
+    background-color: transparent;
+  }
+  .navbar-toggle {
+    border: none;
+    .icon-bar {
+      background-color: #000;
+    }
+  }
+}
+
 
 /* GALLERY */
 #carousel-container {
@@ -187,10 +200,10 @@ body {
 .main-page-desc {
   @include border-radius(15px);
   background-color: $color-red;
+  color: $color-gold;
   font-family: $font-Ametist;
   font-size: $font-size-default+8;
   text-align: center;
-  color: $color-gold;
   padding: 30px 16px;
   margin-top: 40px;
 }
@@ -371,12 +384,21 @@ body {
         width: 90px;
       }
     }
-    .navbar-nav > li > a {
+    .navbar-nav li {
+      margin-right: 5px;
       margin-top: 5px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 5px;
-      padding-right: 5px;
+      a {
+        float: right;
+        @include border-radius(15px);
+        background-color: $color-red;
+        font-family: $font-Ametist;
+        font-size: $font-size-default;
+        margin-left: 2px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
     }
   }
   /* GALLERY */
@@ -405,11 +427,30 @@ body {
       }
       .form-control {
         padding: 2px 2px;
+        font-size: $font-size-default - 2;
       }
     }
   }
 }
 @include mq($max-width: 768px) {
+  /* NAVBAR */
+  .navbar-default {
+    .navbar-right {
+      float: right;
+      .btn-default {
+        .search-text {
+          font-size: $font-size-default - 2
+        }
+      }
+    }
+    .navbar-form {
+      padding: 0;
+      margin-top: 0;
+      .form-group {
+        display: inline-block;
+      }
+    }
+  }
   /* GALLERY */
   #carousel-container {
     margin-top: 50px;
@@ -457,6 +498,27 @@ body {
   }
 }
 @include mq($max-width: 480px) {
+  /* NAVBAR */
+  .navbar-default {
+    .navbar-right {
+      float: right;
+      .btn-default {
+        .search-text {
+          font-size: $font-size-default - 2
+        }
+      }
+    }
+    .navbar-nav li {
+      margin-top: 15px;
+    }
+    .navbar-form {
+      padding: 0;
+      margin-top: 0;
+      .form-group {
+        display: inline-block;
+      }
+    }
+  }
   /* GALLERY */
   #carousel-container {
     #custom_carousel {
